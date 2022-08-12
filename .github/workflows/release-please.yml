@@ -14,7 +14,6 @@ jobs:
         id: release
         with:
           release-type: node
-          package-name: "@linz/template-javascript-hello-world"
           token: ${{ secrets.GITHUB_TOKEN }}
 
   publish-release:

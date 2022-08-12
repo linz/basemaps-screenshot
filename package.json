@@ -11,7 +11,8 @@
     "organization": true
   },
   "devDependencies": {
-    "@linzjs/style": "^3.9.0"
+    "@linzjs/style": "^3.9.0",
+    "@types/node": "^18.7.1"
   },
   "scripts": {
     "build": "tsc",
@@ -27,5 +28,14 @@
   },
   "files": [
     "build/src/**"
-  ]
+  ],
+  "dependencies": {
+    "@chunkd/fs": "^8.4.0",
+    "aws-sdk": "^2.1193.0",
+    "cmd-ts": "^0.11.0",
+    "pino": "^8.4.0",
+    "playwright": "^1.25.0",
+    "pretty-json-log": "^1.1.2",
+    "ulid": "^2.3.0"
+  }
 }
