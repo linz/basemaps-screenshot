@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@linzjs/style": "^3.9.0",
-    "@types/node": "^18.7.1"
+    "@types/node": "^18.7.2"
   },
   "scripts": {
     "build": "tsc",
