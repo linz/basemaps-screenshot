@@ -43,7 +43,5 @@ jobs:
       - name: "basemaps-screenshot/cli - Build and push"
         uses: docker/build-push-action@v3
         with:
-          context: packages/cli
           platforms: linux/arm64,linux/amd64
           tags: ghcr.io/linz/basemaps-screenshot/cli:${{ steps.version.outputs.version }}
-          push: ${{github.ref == 'refs/heads/master'}}
