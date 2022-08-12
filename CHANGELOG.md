@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.0 (2022-08-12)
+
+
+### Features
+
+* add screenshot cli ([a67c7b3](https://github.com/linz/basemaps-screenshot/commit/a67c7b3cc815f40dbf21ca6785701e97c349827b))
+* only publish containers on release ([8c36047](https://github.com/linz/basemaps-screenshot/commit/8c360477510b2caf150d40cd49c62c6231ee13b3))
+
 ## 0.0.2 (2022-08-11)
 
 
