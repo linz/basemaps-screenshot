@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/linz/basemaps-screenshot/compare/v1.0.0...v1.0.1) (2022-08-12)
+
+
+### Bug Fixes
+
+* use correct context ([1ab3c2c](https://github.com/linz/basemaps-screenshot/commit/1ab3c2c5c8fb68dd86f6183d5d5e8863bfa2ff32))
+
 ## 1.0.0 (2022-08-12)
 
 
