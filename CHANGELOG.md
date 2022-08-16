@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/linz/basemaps-screenshot/compare/v1.0.1...v1.0.2) (2022-08-12)
+
+
+### Bug Fixes
+
+* correct location of package/repo ([dd45f5c](https://github.com/linz/basemaps-screenshot/commit/dd45f5c46f274c8cab218aba36deb9058cef560e))
+
 ## [1.0.1](https://github.com/linz/basemaps-screenshot/compare/v1.0.0...v1.0.1) (2022-08-12)
 
 
