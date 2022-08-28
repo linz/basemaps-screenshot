@@ -8,7 +8,7 @@ WORKDIR /app/
 COPY ./package.json /app/
 COPY ./yarn.lock /app/
 
-RUN npm install --omit=dev
+RUN yarn install --production
 
 ADD ./build /app/build
 
