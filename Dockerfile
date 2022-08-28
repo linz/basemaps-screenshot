@@ -12,4 +12,4 @@ RUN npm install --omit=dev
 
 ADD ./build /app/build
 
-ENTRYPOINT [ "node", "./build/src/index.js" ]
+ENTRYPOINT [ "node", "./build/src/bin.js" ]
