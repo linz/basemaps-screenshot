@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/linz/basemaps-screenshot/compare/v1.0.2...v1.1.0) (2022-08-28)
+
+
+### Features
+
+* **deps:** bump @chunkd/fs from 8.4.0 to 8.5.1 ([#16](https://github.com/linz/basemaps-screenshot/issues/16)) ([61c0a37](https://github.com/linz/basemaps-screenshot/commit/61c0a37e875ea776f9804552c61534b06cf3215f))
+* **deps:** bump playwright from 1.25.0 to 1.25.1 ([#19](https://github.com/linz/basemaps-screenshot/issues/19)) ([6a7daff](https://github.com/linz/basemaps-screenshot/commit/6a7daff8016b21f4395061d16eff24a14dc018b8))
+
 ## [1.0.2](https://github.com/linz/basemaps-screenshot/compare/v1.0.1...v1.0.2) (2022-08-12)
 
 
