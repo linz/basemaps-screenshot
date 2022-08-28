@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/linz/basemaps-screenshot/compare/v1.1.1...v1.2.0) (2022-08-28)
+
+
+### Features
+
+* **deps:** bump pino from 8.4.0 to 8.4.2 ([#11](https://github.com/linz/basemaps-screenshot/issues/11)) ([069b7ea](https://github.com/linz/basemaps-screenshot/commit/069b7ea21c235e7aa5e1d360a613a4a80a694dd2))
+* take two screen shots at a time ([3030356](https://github.com/linz/basemaps-screenshot/commit/30303566b45bc38443b76623a3ba4005f91a0685))
+
 ## [1.1.1](https://github.com/linz/basemaps-screenshot/compare/v1.1.0...v1.1.1) (2022-08-28)
 
 
