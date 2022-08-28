@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/linz/basemaps-screenshot/compare/v1.1.0...v1.1.1) (2022-08-28)
+
+
+### Bug Fixes
+
+* docker should use same package manager as the repo ([63f5af0](https://github.com/linz/basemaps-screenshot/commit/63f5af08902f95d93fabac0f4a464803044e5225))
+
 ## [1.1.0](https://github.com/linz/basemaps-screenshot/compare/v1.0.2...v1.1.0) (2022-08-28)
 
 
