@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/playwright:v1.25.0-focal
+FROM mcr.microsoft.com/playwright:v1.25.1-focal
 
 ENV NODE_ENV=PRODUCTION
 
