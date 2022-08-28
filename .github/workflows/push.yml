@@ -32,4 +32,4 @@ jobs:
           context: ./
           platforms: linux/arm64,linux/amd64
           tags: ghcr.io/linz/basemaps-screenshot/cli:${{ steps.version.outputs.version }}
-          push: false
+          push: true
