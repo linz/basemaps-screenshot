@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.3.0](https://github.com/linz/basemaps-screenshot/compare/v1.2.0...v1.3.0) (2023-01-17)
+
+
+### Features
+
+* **deps:** bump @chunkd/fs from 8.5.1 to 10.0.2 ([#99](https://github.com/linz/basemaps-screenshot/issues/99)) ([0fdf267](https://github.com/linz/basemaps-screenshot/commit/0fdf267b8d64ef896966d536b5003ea8c9127703))
+* **deps:** bump pino from 8.4.2 to 8.8.0 ([#127](https://github.com/linz/basemaps-screenshot/issues/127)) ([bfcb0a3](https://github.com/linz/basemaps-screenshot/commit/bfcb0a3f7a15381883d579544b60df53a9732278))
+* **deps:** bump playwright from 1.25.1 to 1.29.2 ([#147](https://github.com/linz/basemaps-screenshot/issues/147)) ([1e53695](https://github.com/linz/basemaps-screenshot/commit/1e53695936cd03000ebd9f412079007d97632f7a))
+* **deps:** bump pretty-json-log from 1.1.2 to 1.3.0 ([#43](https://github.com/linz/basemaps-screenshot/issues/43)) ([78671f5](https://github.com/linz/basemaps-screenshot/commit/78671f55cf3443766ed25aacc15af6c32787bda8))
+
+
+### Bug Fixes
+
+* set-output has been deprecated ([#154](https://github.com/linz/basemaps-screenshot/issues/154)) ([895725b](https://github.com/linz/basemaps-screenshot/commit/895725b2140ea60f1d19fa24f192721a083d932d))
+
 ## [1.2.0](https://github.com/linz/basemaps-screenshot/compare/v1.1.1...v1.2.0) (2022-08-28)
 
 
