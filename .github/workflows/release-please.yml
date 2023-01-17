@@ -39,7 +39,12 @@ jobs:
         id: version
         run: |
           GIT_VERSION=$(git describe --tags --always --match 'v*')
-          echo "::set-output name=version::${GIT_VERSION}"
+          GIT_VERSION_MAJOR=$(echo $GIT_VERSION | cut -d. -f1)
+          GIT_VERSION_MAJOR_MINOR=$(echo $GIT_VERSION | cut -d. -f1,2)
+
+          echo "version=${GIT_VERSION}" >> $GITHUB_OUTPUT
+          echo "version_major=${GIT_VERSION_MAJOR}" >> $GITHUB_OUTPUT
+          echo "version_major_minor=${GIT_VERSION_MAJOR_MINOR}" >> $GITHUB_OUTPUT
 
       - name: Log in to registry
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u $ --password-stdin
@@ -49,5 +54,8 @@ jobs:
         with:
           context: ./
           platforms: linux/arm64,linux/amd64
-          tags: ghcr.io/linz/basemaps-screenshot/cli:${{ steps.version.outputs.version }}
+          tags: |
+            ghcr.io/linz/basemaps-screenshot/cli:${{ steps.version.outputs.version_major }}
+            ghcr.io/linz/basemaps-screenshot/cli:${{ steps.version.outputs.version_major_minor }}
+            ghcr.io/linz/basemaps-screenshot/cli:${{ steps.version.outputs.version }}
           push: true
