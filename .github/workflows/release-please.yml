@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ needs.release-please.outputs.release_created }}
     steps:
-      - uses: linz/action-typescript@v1
+      - uses: linz/action-typescript@v2
 
       - name: Pull Tags
         run: |
@@ -39,7 +39,7 @@ jobs:
         id: version
         run: |
           GIT_VERSION=$(git describe --tags --always --match 'v*')
-          echo "::set-output name=version::${GIT_VERSION}"
+          echo "version=${GIT_VERSION}" >> $GITHUB_OUTPUT
 
       - name: Log in to registry
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u $ --password-stdin
