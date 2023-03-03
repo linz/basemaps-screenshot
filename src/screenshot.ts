@@ -24,7 +24,7 @@ export const CommandScreenshot = command({
       long: 'timeout',
       description:
         'Maximum waiting time for `networkidle` in milliseconds, defaults to 30 seconds, pass `0` to disable timeout.',
-      defaultValue: () => 30,
+      defaultValue: () => 30000,
     }),
   },
 
