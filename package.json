@@ -31,7 +31,7 @@
   ],
   "dependencies": {
     "@chunkd/fs": "^10.0.4",
-    "aws-sdk": "^2.1326.0",
+    "aws-sdk": "^2.1329.0",
     "cmd-ts": "^0.12.1",
     "p-limit": "^4.0.0",
     "pino": "^8.8.0",
