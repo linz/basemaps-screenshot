@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/linz/basemaps-screenshot/compare/v1.4.0...v1.4.1) (2023-03-07)
+
+
+### Bug Fixes
+
+* broken yarn.lock ([0c65b3f](https://github.com/linz/basemaps-screenshot/commit/0c65b3f050a552841ff9fc7c52a1e74795c7a570))
+
 ## [1.4.0](https://github.com/linz/basemaps-screenshot/compare/v1.3.0...v1.4.0) (2023-03-07)
 
 
