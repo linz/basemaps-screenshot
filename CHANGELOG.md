@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/linz/basemaps-screenshot/compare/v1.3.0...v1.4.0) (2023-03-07)
+
+
+### Features
+
+* Stop error out and still take screenshot when failure or timeout, add waiting timeout for networkidle. ([#200](https://github.com/linz/basemaps-screenshot/issues/200)) ([6a0119f](https://github.com/linz/basemaps-screenshot/commit/6a0119f38ad128142976788823538bb6ed9f880b))
+
 ## [1.3.0](https://github.com/linz/basemaps-screenshot/compare/v1.2.0...v1.3.0) (2023-01-17)
 
 
