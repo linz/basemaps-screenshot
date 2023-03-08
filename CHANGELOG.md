@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/linz/basemaps-screenshot/compare/v1.4.1...v1.5.0) (2023-03-08)
+
+
+### Features
+
+* Set Default timeout for the whole transaction, remove the wait once map-loaded. ([#209](https://github.com/linz/basemaps-screenshot/issues/209)) ([94201b8](https://github.com/linz/basemaps-screenshot/commit/94201b84d1adaa1ad88d90e9ba91fdca23a80fc9))
+
 ## [1.4.1](https://github.com/linz/basemaps-screenshot/compare/v1.4.0...v1.4.1) (2023-03-07)
 
 
