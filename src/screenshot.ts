@@ -51,7 +51,6 @@ async function takeScreenshots(
 
   const proms = DefaultTestTiles.map((test) => {
     return Q(async () => {
-      const startTime = performance.now();
       const page = await ctx.newPage();
 
       const searchParam = new URLSearchParams();
@@ -69,12 +68,13 @@ async function takeScreenshots(
       if (!url.startsWith('http')) url = `https://${url}`;
 
       logger.info({ url, expected: output }, 'Page:Load');
-
-      await page.goto(url);
+      page.setDefaultTimeout(args.timeout);
+      const startTime = performance.now();
       try {
+        await page.goto(url);
         await page.waitForSelector('div#map-loaded', { state: 'attached' });
         await page.waitForTimeout(250);
-        await page.waitForLoadState('networkidle', { timeout: args.timeout });
+        await page.waitForLoadState('networkidle');
         await page.screenshot({ path: output });
       } catch (error) {
         await page.screenshot({ path: output });
