@@ -73,6 +73,8 @@ async function takeScreenshots(
       try {
         await page.goto(url);
         await page.waitForSelector('div#map-loaded', { state: 'attached' });
+        await page.waitForTimeout(250);
+        await page.waitForLoadState('networkidle');
         await page.screenshot({ path: output });
       } catch (error) {
         await page.screenshot({ path: output });
