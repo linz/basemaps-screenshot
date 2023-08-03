@@ -30,7 +30,7 @@
     "build/src/**"
   ],
   "dependencies": {
-    "@chunkd/fs": "^10.0.4",
+    "@chunkd/fs": "^11.0.2",
     "aws-sdk": "^2.1326.0",
     "cmd-ts": "^0.12.1",
     "p-limit": "^4.0.0",
