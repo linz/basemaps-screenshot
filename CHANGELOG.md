@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/linz/basemaps-screenshot/compare/v1.5.0...v1.6.0) (2024-06-10)
+
+
+### Features
+
+* **tests:** Add more tests for elevation 3d map. ([#411](https://github.com/linz/basemaps-screenshot/issues/411)) ([65ba46f](https://github.com/linz/basemaps-screenshot/commit/65ba46fc3e319923e5f8db785c38fe03079816db))
+
 ## [1.5.0](https://github.com/linz/basemaps-screenshot/compare/v1.4.1...v1.5.0) (2023-03-08)
 
 
