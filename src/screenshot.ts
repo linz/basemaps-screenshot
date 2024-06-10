@@ -57,8 +57,12 @@ async function takeScreenshots(
       searchParam.set('p', test.tileMatrix);
       searchParam.set('i', test.tileSet);
       if (test.style) searchParam.set('s', test.style);
+      if (test.terrain) searchParam.set('debug.terrain', test.terrain);
+      if (test.hillshade) searchParam.set('debug.hillshade', test.hillshade);
 
-      const loc = `@${test.location.lat},${test.location.lng},z${test.location.z}`;
+      const bearing = test.location.b ? test.location.b : 0;
+      const pitch = test.location.p ? test.location.p : 0;
+      const loc = `@${test.location.lat},${test.location.lng},z${test.location.z},b${bearing},p${pitch}`;
       const fileName = test.name + '.png';
       const output = fsa.join(args.output, fileName);
 
