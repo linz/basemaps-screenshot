@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.0](https://github.com/linz/basemaps-screenshot/compare/v1.6.0...v1.7.0) (2024-07-11)
+
+
+### Features
+
+* Allow to import customized test file into the screenshots ([#415](https://github.com/linz/basemaps-screenshot/issues/415)) ([e02fc95](https://github.com/linz/basemaps-screenshot/commit/e02fc957b767e154dba534df27b4e863a60e85d8))
+* Update the terrain source id to the new one. ([#413](https://github.com/linz/basemaps-screenshot/issues/413)) ([1b7fe14](https://github.com/linz/basemaps-screenshot/commit/1b7fe1440c6fc287c91bddea5b8ef9ee695267b3))
+
 ## [1.6.0](https://github.com/linz/basemaps-screenshot/compare/v1.5.0...v1.6.0) (2024-06-10)
 
 
