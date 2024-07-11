@@ -2,7 +2,26 @@ enum TileMatrixIdentifier {
   Nztm2000Quad = 'NZTM2000Quad',
   Google = 'WebMercatorQuad',
 }
-export const DefaultTestTiles = [
+
+interface Location {
+  lat: number;
+  lng: number;
+  z: number;
+  b?: number;
+  p?: number;
+}
+
+export interface TestTile {
+  name: string;
+  tileMatrix: TileMatrixIdentifier;
+  location: Location;
+  tileSet: string;
+  style?: string;
+  terrain?: string;
+  hillshade?: string;
+}
+
+export const DefaultTestTiles: TestTile[] = [
   {
     name: 'health-3857-z5',
     tileMatrix: TileMatrixIdentifier.Google,
