@@ -1,9 +1,9 @@
 import { fsa } from '@chunkd/fs';
-import { command, number, option, string } from 'cmd-ts';
+import { command, number, option, optional, string } from 'cmd-ts';
 import { mkdir } from 'fs/promises';
 import { chromium, Browser } from 'playwright';
 import { logger } from './log.js';
-import { DefaultTestTiles } from './tiles.js';
+import { DefaultTestTiles, TestTile } from './tiles.js';
 import pLimit from 'p-limit';
 
 export const CommandScreenshot = command({
@@ -13,6 +13,11 @@ export const CommandScreenshot = command({
   args: {
     url: option({ type: string, long: 'url', description: 'Basemaps Base URL' }),
     output: option({ type: string, long: 'output', description: 'Output location for screenshots' }),
+    test: option({
+      type: optional(string),
+      long: 'test',
+      description: 'Path of the json test file to replace default test',
+    }),
     concurrency: option({
       type: number,
       long: 'concurrency',
@@ -42,14 +47,22 @@ export const CommandScreenshot = command({
 
 async function takeScreenshots(
   chrome: Browser,
-  args: { output: string; url: string; concurrency: number; timeout: number },
+  args: { output: string; url: string; concurrency: number; timeout: number; test?: string },
 ): Promise<void> {
   const ctx = await chrome.newContext({ viewport: { width: 1280, height: 720 } });
 
   const Q = pLimit(Math.floor(args.concurrency));
   // await ctx.tracing.start({ screenshots: true, snapshots: true });
 
-  const proms = DefaultTestTiles.map((test) => {
+  const tests = [];
+
+  if (args.test) {
+    tests.push(...(await fsa.readJson<TestTile[]>(args.test)));
+  } else {
+    tests.push(...DefaultTestTiles);
+  }
+
+  const proms = tests.map((test) => {
     return Q(async () => {
       const page = await ctx.newPage();
 
