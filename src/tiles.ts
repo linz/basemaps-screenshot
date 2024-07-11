@@ -103,8 +103,8 @@ export const DefaultTestTiles = [
     location: { lat: -45.0735206, lng: 169.1674805, z: 6, b: 18, p: 55 },
     tileSet: 'aerial',
     style: 'aerial',
-    terrain: 'basemaps-elevation-terrain',
-    hillshade: 'basemaps-elevation-terrain',
+    terrain: 'LINZ-Terrain',
+    hillshade: 'LINZ-Terrain',
   },
   {
     name: 'aerial-3857-terrain-hillshade-z5',
@@ -112,7 +112,7 @@ export const DefaultTestTiles = [
     location: { lat: -40.7681948, lng: 172.4544741, z: 5 },
     tileSet: 'aerial',
     style: 'aerial',
-    hillshade: 'basemaps-elevation-terrain',
+    hillshade: 'LINZ-Terrain',
   },
   {
     name: 'aerial-3857-wellington-urban-terrain-z13',
@@ -120,7 +120,7 @@ export const DefaultTestTiles = [
     location: { lat: -41.3040702, lng: 174.7730613, z: 14, b: -14, p: 60 },
     tileSet: 'aerial',
     style: 'aerial',
-    terrain: 'basemaps-elevation-terrain',
+    terrain: 'LINZ-Terrain',
   },
   {
     name: 'aerial-3857-mount-taranaki-terrain-hillshade-z14',
@@ -128,8 +128,8 @@ export const DefaultTestTiles = [
     location: { lat: -39.3031717, lng: 174.0585208, z: 14, b: 46, p: 43 },
     tileSet: 'aerial',
     style: 'aerial',
-    terrain: 'basemaps-elevation-terrain',
-    hillshade: 'basemaps-elevation-terrain',
+    terrain: 'LINZ-Terrain',
+    hillshade: 'LINZ-Terrain',
   },
   {
     name: 'topographic-3857-terrain-hillshade-z12',
@@ -137,8 +137,8 @@ export const DefaultTestTiles = [
     location: { lat: -42.4146988, lng: 174.1766669, z: 5, b: 13, p: 46 },
     tileSet: 'topographic',
     style: 'topographic',
-    terrain: 'basemaps-elevation-terrain',
-    hillshade: 'basemaps-elevation-terrain',
+    terrain: 'LINZ-Terrain',
+    hillshade: 'LINZ-Terrain',
   },
   {
     name: 'topographic-3857-tauranga-terrain-z12',
@@ -146,7 +146,7 @@ export const DefaultTestTiles = [
     location: { lat: -37.7635905, lng: 176.2261963, z: 12, p: 60 },
     tileSet: 'topographic',
     style: 'topographic',
-    terrain: 'basemaps-elevation-terrain',
+    terrain: 'LINZ-Terrain',
   },
   {
     name: 'topolite-3857-hillshade-z4',
@@ -154,7 +154,7 @@ export const DefaultTestTiles = [
     location: { lat: -41.6092133, lng: 173.0748696, z: 4 },
     tileSet: 'topographic',
     style: 'topolite',
-    hillshade: 'basemaps-elevation-terrain',
+    hillshade: 'LINZ-Terrain',
   },
   {
     name: 'topolite-3857-christchurch-rural-terrain-hillshade-z10',
@@ -162,7 +162,7 @@ export const DefaultTestTiles = [
     location: { lat: -43.6547079, lng: 172.6999283, z: 10, b: 32, p: 60 },
     tileSet: 'topographic',
     style: 'topolite',
-    terrain: 'basemaps-elevation-terrain',
-    hillshade: 'basemaps-elevation-terrain',
+    terrain: 'LINZ-Terrain',
+    hillshade: 'LINZ-Terrain',
   },
 ];
