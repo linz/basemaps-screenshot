@@ -119,7 +119,7 @@ export const DefaultTestTiles: TestTile[] = [
   {
     name: 'aerial-3857-terrain-hillshade-z6',
     tileMatrix: TileMatrixIdentifier.Google,
-    location: { lat: -45.0735206, lng: 169.1674805, z: 6, b: 18, p: 55 },
+    location: { lat: -45.0735206, lng: 169.1674805, z: 6 },
     tileSet: 'aerial',
     style: 'aerial',
     terrain: 'LINZ-Terrain',
@@ -136,7 +136,7 @@ export const DefaultTestTiles: TestTile[] = [
   {
     name: 'aerial-3857-wellington-urban-terrain-z13',
     tileMatrix: TileMatrixIdentifier.Google,
-    location: { lat: -41.3040702, lng: 174.7730613, z: 14, b: -14, p: 60 },
+    location: { lat: -41.3040702, lng: 174.7730613, z: 14 },
     tileSet: 'aerial',
     style: 'aerial',
     terrain: 'LINZ-Terrain',
@@ -144,7 +144,7 @@ export const DefaultTestTiles: TestTile[] = [
   {
     name: 'aerial-3857-mount-taranaki-terrain-hillshade-z14',
     tileMatrix: TileMatrixIdentifier.Google,
-    location: { lat: -39.3031717, lng: 174.0585208, z: 14, b: 46, p: 43 },
+    location: { lat: -39.3031717, lng: 174.0585208, z: 14 },
     tileSet: 'aerial',
     style: 'aerial',
     terrain: 'LINZ-Terrain',
@@ -153,7 +153,7 @@ export const DefaultTestTiles: TestTile[] = [
   {
     name: 'topographic-3857-terrain-hillshade-z12',
     tileMatrix: TileMatrixIdentifier.Google,
-    location: { lat: -42.4146988, lng: 174.1766669, z: 5, b: 13, p: 46 },
+    location: { lat: -42.4146988, lng: 174.1766669, z: 5 },
     tileSet: 'topographic',
     style: 'topographic',
     terrain: 'LINZ-Terrain',
@@ -162,7 +162,7 @@ export const DefaultTestTiles: TestTile[] = [
   {
     name: 'topographic-3857-tauranga-terrain-z12',
     tileMatrix: TileMatrixIdentifier.Google,
-    location: { lat: -37.7635905, lng: 176.2261963, z: 12, p: 60 },
+    location: { lat: -37.7635905, lng: 176.2261963, z: 12 },
     tileSet: 'topographic',
     style: 'topographic',
     terrain: 'LINZ-Terrain',
@@ -178,7 +178,7 @@ export const DefaultTestTiles: TestTile[] = [
   {
     name: 'topolite-3857-christchurch-rural-terrain-hillshade-z10',
     tileMatrix: TileMatrixIdentifier.Google,
-    location: { lat: -43.6547079, lng: 172.6999283, z: 10, b: 32, p: 60 },
+    location: { lat: -43.6547079, lng: 172.6999283, z: 10 },
     tileSet: 'topographic',
     style: 'topolite',
     terrain: 'LINZ-Terrain',
