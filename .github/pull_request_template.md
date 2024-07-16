@@ -1,15 +1,13 @@
-#### Description
-*What does this change aim to achieve?*
+### Motivation
 
+<!-- TODO: Say why you made your changes. -->
 
+### Modifications
 
-#### Intention
-*Why is this change being made? What implications or other considerations are there?*
+<!-- TODO: Say what changes you made. -->
 
+<!-- TODO: Attach screenshots if you changed the UI. -->
 
+### Verification
 
-#### Checklist
-*If not applicable, provide explanation of why.*
-- [ ] Tests updated
-- [ ] Docs updated
-- [ ] Issue linked in Title
+<!-- TODO: Say how you tested your changes. -->
