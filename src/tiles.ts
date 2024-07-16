@@ -162,7 +162,7 @@ export const DefaultTestTiles: TestTile[] = [
   {
     name: 'topographic-3857-tauranga-terrain-z12',
     tileMatrix: TileMatrixIdentifier.Google,
-    location: { lat: -37.7635905, lng: 176.2261963, z: 12},
+    location: { lat: -37.7635905, lng: 176.2261963, z: 12 },
     tileSet: 'topographic',
     style: 'topographic',
     terrain: 'LINZ-Terrain',
