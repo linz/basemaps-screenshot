@@ -70,7 +70,10 @@ async function takeScreenshots(
       searchParam.set('p', test.tileMatrix);
       searchParam.set('i', test.tileSet);
       if (test.style) searchParam.set('s', test.style);
-      if (test.terrain) searchParam.set('debug.terrain', test.terrain);
+      if (test.terrain) {
+        searchParam.set('terrain', test.terrain);
+        searchParam.set('debug.terrain', test.terrain);
+      }
       if (test.hillshade) searchParam.set('debug.hillshade', test.hillshade);
 
       const bearing = test.location.b ? test.location.b : 0;
