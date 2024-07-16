@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.8.0](https://github.com/linz/basemaps-screenshot/compare/v1.7.0...v1.8.0) (2024-07-16)
+
+
+### Features
+
+* Remove bearing and pitch for default tests. ([#416](https://github.com/linz/basemaps-screenshot/issues/416)) ([99b800e](https://github.com/linz/basemaps-screenshot/commit/99b800eaf0da6a80c08107e34130b0ad0e2d1818))
+* Update the PR template ([#417](https://github.com/linz/basemaps-screenshot/issues/417)) ([9979552](https://github.com/linz/basemaps-screenshot/commit/9979552ac508677a43e2628034c1968429e0076d))
+
 ## [1.7.0](https://github.com/linz/basemaps-screenshot/compare/v1.6.0...v1.7.0) (2024-07-11)
 
 
