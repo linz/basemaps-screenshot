@@ -134,14 +134,6 @@ export const DefaultTestTiles: TestTile[] = [
     hillshade: 'LINZ-Terrain',
   },
   {
-    name: 'aerial-3857-wellington-urban-terrain-z13',
-    tileMatrix: TileMatrixIdentifier.Google,
-    location: { lat: -41.3040702, lng: 174.7730613, z: 14 },
-    tileSet: 'aerial',
-    style: 'aerial',
-    terrain: 'LINZ-Terrain',
-  },
-  {
     name: 'aerial-3857-mount-taranaki-terrain-hillshade-z14',
     tileMatrix: TileMatrixIdentifier.Google,
     location: { lat: -39.3031717, lng: 174.0585208, z: 14 },
@@ -160,28 +152,11 @@ export const DefaultTestTiles: TestTile[] = [
     hillshade: 'LINZ-Terrain',
   },
   {
-    name: 'topographic-3857-tauranga-terrain-z12',
-    tileMatrix: TileMatrixIdentifier.Google,
-    location: { lat: -37.7635905, lng: 176.2261963, z: 12 },
-    tileSet: 'topographic',
-    style: 'topographic',
-    terrain: 'LINZ-Terrain',
-  },
-  {
     name: 'topolite-3857-hillshade-z4',
     tileMatrix: TileMatrixIdentifier.Google,
     location: { lat: -41.6092133, lng: 173.0748696, z: 4 },
     tileSet: 'topographic',
     style: 'topolite',
-    hillshade: 'LINZ-Terrain',
-  },
-  {
-    name: 'topolite-3857-christchurch-rural-terrain-hillshade-z10',
-    tileMatrix: TileMatrixIdentifier.Google,
-    location: { lat: -43.6547079, lng: 172.6999283, z: 10 },
-    tileSet: 'topographic',
-    style: 'topolite',
-    terrain: 'LINZ-Terrain',
     hillshade: 'LINZ-Terrain',
   },
 ];
