@@ -158,5 +158,5 @@ export const DefaultTestTiles: TestTile[] = [
     tileSet: 'topographic',
     style: 'topolite',
     hillshade: 'LINZ-Terrain',
-  }
+  },
 ];
