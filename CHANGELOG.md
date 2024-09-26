@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.1](https://github.com/linz/basemaps-screenshot/compare/v1.8.0...v1.8.1) (2024-09-26)
+
+
+### Bug Fixes
+
+* remove hillshade from taranaki screenshot test BM-1054 ([#420](https://github.com/linz/basemaps-screenshot/issues/420)) ([3e5b01a](https://github.com/linz/basemaps-screenshot/commit/3e5b01ab633ac581bd61db351895dd64e0f1a514))
+
 ## [1.8.0](https://github.com/linz/basemaps-screenshot/compare/v1.7.0...v1.8.0) (2024-08-11)
 
 
