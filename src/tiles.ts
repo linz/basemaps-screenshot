@@ -136,11 +136,10 @@ export const DefaultTestTiles: TestTile[] = [
   {
     name: 'aerial-3857-mount-taranaki-terrain-hillshade-z14',
     tileMatrix: TileMatrixIdentifier.Google,
-    location: { lat: -39.3031717, lng: 174.0585208, z: 14 },
+    location: { lat: -39.3031717, lng: 174.0585208, z: 14, p: 43 },
     tileSet: 'aerial',
     style: 'aerial',
     terrain: 'LINZ-Terrain',
-    hillshade: 'LINZ-Terrain',
   },
   {
     name: 'topographic-3857-terrain-hillshade-z12',
