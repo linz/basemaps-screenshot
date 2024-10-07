@@ -32,7 +32,7 @@ export const DefaultTestTiles: TestTile[] = [
     name: 'health-2193-z3',
     tileMatrix: TileMatrixIdentifier.Nztm2000Quad,
     location: { lat: -41.8899962, lng: 174.0492437, z: 3 },
-    tileSet: 'aerial',
+    tileSet: 'health',
   },
   {
     name: 'aerial-3857-wellington-urban-z16',
