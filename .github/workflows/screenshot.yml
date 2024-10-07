@@ -18,7 +18,7 @@ jobs:
 
       - name: (Screenshot) Screenshot Pull Request Changes
         run: |
-          ./bms.mjs --url https://basemaps.linz.govt.nz --output $PWD/.artifacts/visual-snapshots
+          ./bms.mjs --url https://basemaps.linz.govt.nz --output .artifacts/visual-snapshots
 
       - name: Save snapshots
         uses: getsentry/action-visual-snapshot@v2
