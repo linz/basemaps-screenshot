@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/linz/basemaps-screenshot/compare/v1.8.1...v1.9.0) (2024-10-09)
+
+
+### Features
+
+* Add screenshot test into CI and fix the health test for NZTM2000Quad. BM-1087 ([#422](https://github.com/linz/basemaps-screenshot/issues/422)) ([eaf8713](https://github.com/linz/basemaps-screenshot/commit/eaf8713be6de55c8aad407d3a5506a366f023636))
+
 ## [1.8.1](https://github.com/linz/basemaps-screenshot/compare/v1.8.0...v1.8.1) (2024-09-26)
 
 
