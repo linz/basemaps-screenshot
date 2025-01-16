@@ -158,4 +158,28 @@ export const DefaultTestTiles: TestTile[] = [
     style: 'topolite',
     hillshade: 'LINZ-Terrain',
   },
+  {
+    // verify the absence of black edge artifacts around the imagery's perimeter
+    name: 'nz-topo-gridless-maps-2193-nz-250k-z4',
+    tileMatrix: TileMatrixIdentifier.Nztm2000Quad,
+    location: { lat: -40.7899231, lng: 172.2977984, z: 4 },
+    tileSet: 'topo-raster',
+    style: 'topo-raster',
+  },
+  {
+    // verify the location and re-projection of the chatham islands imagery
+    name: 'nz-topo-gridless-maps-3857-chatham-islands-250k-z10',
+    tileMatrix: TileMatrixIdentifier.Google,
+    location: { lat: -43.9090948, lng: -176.540438, z: 10 },
+    tileSet: 'topo-raster',
+    style: 'topo-raster',
+  },
+  {
+    // verify the tileset displays the 50k imagery
+    name: 'nz-topo-gridless-maps-3857-wellington-50k-z12',
+    tileMatrix: TileMatrixIdentifier.Google,
+    location: { lat: -41.299807, lng: 174.8041651, z: 12 },
+    tileSet: 'topo-raster',
+    style: 'topo-raster',
+  },
 ];
