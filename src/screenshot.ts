@@ -1,10 +1,12 @@
 import { fsa } from '@chunkd/fs';
 import { command, number, option, optional, string } from 'cmd-ts';
 import { mkdir } from 'fs/promises';
-import { chromium, Browser } from 'playwright';
+import { chromium, Browser, Page } from 'playwright';
 import { logger } from './log.js';
 import { DefaultTestTiles, TestTile } from './tiles.js';
 import pLimit from 'p-limit';
+import { PNG } from 'pngjs';
+import pixelmatch from 'pixelmatch';
 
 export const CommandScreenshot = command({
   name: 'bms',
@@ -12,6 +14,11 @@ export const CommandScreenshot = command({
 
   args: {
     url: option({ type: string, long: 'url', description: 'Basemaps Base URL' }),
+    diffUrl: option({
+      type: optional(string),
+      long: 'diff-url',
+      description: 'Basemaps Base URL for compare the difference',
+    }),
     output: option({ type: string, long: 'output', description: 'Output location for screenshots' }),
     test: option({
       type: optional(string),
@@ -47,7 +54,7 @@ export const CommandScreenshot = command({
 
 async function takeScreenshots(
   chrome: Browser,
-  args: { output: string; url: string; concurrency: number; timeout: number; test?: string },
+  args: { output: string; url: string; concurrency: number; timeout: number; diffUrl?: string; test?: string },
 ): Promise<void> {
   const ctx = await chrome.newContext({ viewport: { width: 1280, height: 720 } });
 
@@ -66,45 +73,82 @@ async function takeScreenshots(
     return Q(async () => {
       const page = await ctx.newPage();
 
-      const searchParam = new URLSearchParams();
-      searchParam.set('p', test.tileMatrix);
-      searchParam.set('i', test.tileSet);
-      if (test.style) searchParam.set('s', test.style);
-      if (test.terrain) {
-        searchParam.set('terrain', test.terrain);
-        searchParam.set('debug.terrain', test.terrain);
-      }
-      if (test.hillshade) searchParam.set('debug.hillshade', test.hillshade);
-
-      const bearing = test.location.b ? test.location.b : 0;
-      const pitch = test.location.p ? test.location.p : 0;
-      const loc = `@${test.location.lat},${test.location.lng},z${test.location.z},b${bearing},p${pitch}`;
-      const fileName = test.name + '.png';
-      const output = fsa.join(args.output, fileName);
-
       await mkdir(`.artifacts/visual-snapshots/`, { recursive: true });
 
-      let url = `${args.url}/?${searchParam.toString()}&debug=true&debug.screenshot=true#${loc}`;
-      if (!url.startsWith('http')) url = `https://${url}`;
+      const fileName = test.name + '.png';
+      const output = fsa.join(args.output, fileName);
+      const url = prepareUrl(args.url, test);
+      await takeScreenshot(page, url, output, args.timeout);
 
-      logger.info({ url, expected: output }, 'Page:Load');
-      page.setDefaultTimeout(args.timeout);
-      const startTime = performance.now();
-      try {
-        await page.goto(url);
-        await page.waitForSelector('div#map-loaded', { state: 'attached' });
-        await page.waitForTimeout(250);
-        await page.waitForLoadState('networkidle');
-        await page.screenshot({ path: output });
-      } catch (error) {
-        await page.screenshot({ path: output });
-        logger.error({ url, error, duration: performance.now() - startTime }, 'Page:Load:Failure');
+      // Compare diffs between two urls
+      if (args.diffUrl) {
+        const fileNameCompare = test.name + '-compare.png';
+        const outputCompare = fsa.join(args.output, fileNameCompare);
+        const urlCompare = prepareUrl(args.diffUrl, test);
+        await takeScreenshot(page, urlCompare, outputCompare, args.timeout);
+        const diffImg = fsa.join(args.output, test.name + '-diff.png');
+        await compareDiff(output, outputCompare, diffImg);
       }
-      logger.info({ url, expected: output, duration: performance.now() - startTime }, 'Page:Load:Done');
       await page.close();
     });
   });
   await Promise.all(proms);
 
   await ctx.close();
+}
+
+function prepareUrl(baseUrl: string, test: TestTile): string {
+  const searchParam = new URLSearchParams();
+  searchParam.set('p', test.tileMatrix);
+  searchParam.set('i', test.tileSet);
+  if (test.style) searchParam.set('s', test.style);
+  if (test.terrain) {
+    searchParam.set('terrain', test.terrain);
+    searchParam.set('debug.terrain', test.terrain);
+  }
+  if (test.hillshade) searchParam.set('debug.hillshade', test.hillshade);
+
+  const bearing = test.location.b ? test.location.b : 0;
+  const pitch = test.location.p ? test.location.p : 0;
+  const loc = `@${test.location.lat},${test.location.lng},z${test.location.z},b${bearing},p${pitch}`;
+  let url = `${baseUrl}/?${searchParam.toString()}&debug=true&debug.screenshot=true#${loc}`;
+  if (baseUrl.indexOf('/?') > 0) {
+    url = `${baseUrl}&${searchParam.toString()}&debug=true&debug.screenshot=true#${loc}`;
+  }
+  if (!url.startsWith('http')) url = `https://${url}`;
+  return url;
+}
+
+async function takeScreenshot(page: Page, url: string, output: string, timeout: number): Promise<void> {
+  logger.info({ url, expected: output }, 'Page:Load');
+  page.setDefaultTimeout(timeout);
+  const startTime = performance.now();
+  try {
+    await page.goto(url);
+    await page.waitForSelector('div#map-loaded', { state: 'attached' });
+    await page.waitForTimeout(250);
+    await page.waitForLoadState('networkidle');
+    await page.screenshot({ path: output });
+  } catch (error) {
+    await page.screenshot({ path: output });
+    logger.error({ url, error, duration: performance.now() - startTime }, 'Page:Load:Failure');
+  }
+  logger.info({ url, expected: output, duration: performance.now() - startTime }, 'Page:Load:Done');
+}
+
+async function compareDiff(img: string, CompareImg: string, output: string): Promise<void> {
+  logger.info({ img, CompareImg, output }, 'Comparing two images');
+  const img1 = PNG.sync.read(await fsa.read(img));
+  const img2 = PNG.sync.read(await fsa.read(CompareImg));
+  const { width, height } = img1;
+  const diff = new PNG({ width, height });
+
+  const match = pixelmatch(img1.data, img2.data, diff.data, width, height, { threshold: 0.1 });
+
+  if (match > 0) {
+    logger.warn({ img, CompareImg, output, match }, 'Difference detected between two images, check the output');
+    await fsa.write(output, PNG.sync.write(diff));
+  } else {
+    logger.info({ img, CompareImg, output, match }, 'No difference detected between two images');
+  }
 }
