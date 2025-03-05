@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://github.com/linz/basemaps-screenshot/compare/v1.9.0...v1.10.0) (2025-03-05)
+
+
+### Features
+
+* add screenshot tests for the topo-raster tileset BM-1167 ([#424](https://github.com/linz/basemaps-screenshot/issues/424)) ([5acff1e](https://github.com/linz/basemaps-screenshot/commit/5acff1edea2945d3a4f2b88cec9e2e89b6c1a6ed))
+
 ## [1.9.0](https://github.com/linz/basemaps-screenshot/compare/v1.8.1...v1.9.0) (2024-10-09)
 
 
