@@ -41,7 +41,7 @@ export const CommandScreenshot = command({
   },
 
   async handler(args) {
-    if (args.url.endsWith('/')) args.url = args.url.slice(args.url.length - 1);
+    if (args.url.endsWith('/')) args.url = args.url.substring(0, args.url.length - 1);
     const chrome = await chromium.launch();
 
     try {
