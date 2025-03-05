@@ -99,9 +99,11 @@ async function takeScreenshots(
 
 function prepareUrl(baseUrl: string, test: TestTile): string {
   const searchParam = new URLSearchParams();
-  searchParam.set('p', test.tileMatrix);
-  searchParam.set('i', test.tileSet);
-  if (test.style) searchParam.set('s', test.style);
+
+  if (!baseUrl.includes('p=')) searchParam.set('p', test.tileMatrix);
+  if (!baseUrl.includes('i=')) searchParam.set('i', test.tileSet);
+  if (!baseUrl.includes('s=') && test.style) searchParam.set('s', test.style);
+
   if (test.terrain) {
     searchParam.set('terrain', test.terrain);
     searchParam.set('debug.terrain', test.terrain);
