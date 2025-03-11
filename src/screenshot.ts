@@ -100,9 +100,9 @@ async function takeScreenshots(
 function prepareUrl(baseUrl: string, test: TestTile): string {
   const searchParam = new URLSearchParams();
 
-  if (!baseUrl.includes('p=')) searchParam.set('p', test.tileMatrix);
   if (!baseUrl.includes('i=')) searchParam.set('i', test.tileSet);
-  if (!baseUrl.includes('s=') && test.style) searchParam.set('s', test.style);
+  if (!(baseUrl.includes('p=') || baseUrl.includes('tileMatrix='))) searchParam.set('tileMatrix', test.tileMatrix);
+  if (!(baseUrl.includes('s=') || baseUrl.includes('style=')) && test.style) searchParam.set('style', test.style);
 
   if (test.terrain) {
     searchParam.set('terrain', test.terrain);
@@ -110,8 +110,8 @@ function prepareUrl(baseUrl: string, test: TestTile): string {
   }
   if (test.hillshade) searchParam.set('debug.hillshade', test.hillshade);
 
-  const bearing = test.location.b ? test.location.b : 0;
-  const pitch = test.location.p ? test.location.p : 0;
+  const bearing = test.location.b ?? 0;
+  const pitch = test.location.p ?? 0;
   const loc = `@${test.location.lat},${test.location.lng},z${test.location.z},b${bearing},p${pitch}`;
   let url = `${baseUrl}/?${searchParam.toString()}&debug=true&debug.screenshot=true#${loc}`;
   if (baseUrl.indexOf('/?') > 0) {
