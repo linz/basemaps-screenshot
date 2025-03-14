@@ -98,27 +98,36 @@ async function takeScreenshots(
 }
 
 function prepareUrl(baseUrl: string, test: TestTile): string {
-  const searchParam = new URLSearchParams();
+  const url = new URL(baseUrl);
 
-  if (!baseUrl.includes('i=')) searchParam.set('i', test.tileSet);
-  if (!(baseUrl.includes('p=') || baseUrl.includes('tileMatrix='))) searchParam.set('tileMatrix', test.tileMatrix);
-  if (!(baseUrl.includes('s=') || baseUrl.includes('style=')) && test.style) searchParam.set('style', test.style);
+  // We could allow different style or tileset like topographic vs topographic-v2 or force the test on same style
+  const config = url.searchParams.get('config');
+  const style = url.searchParams.get('style') ?? url.searchParams.get('s') ?? test.style;
+  const tileSet = url.searchParams.get('i') ?? test.tileSet;
 
+  // Clear all search parameters
+  url.search = '';
+
+  url.searchParams.set('i', tileSet);
+  url.searchParams.set('tileMatrix', test.tileMatrix);
+  if (style) url.searchParams.set('style', style);
+  if (config) url.searchParams.set('config', config);
   if (test.terrain) {
-    searchParam.set('terrain', test.terrain);
-    searchParam.set('debug.terrain', test.terrain);
+    url.searchParams.set('terrain', test.terrain);
+    url.searchParams.set('debug.terrain', test.terrain);
   }
-  if (test.hillshade) searchParam.set('debug.hillshade', test.hillshade);
+  if (test.hillshade) url.searchParams.set('debug.hillshade', test.hillshade);
+
+  url.searchParams.set('debug', 'true');
+  url.searchParams.set('debug.screenshot', 'true');
 
   const bearing = test.location.b ?? 0;
   const pitch = test.location.p ?? 0;
   const loc = `@${test.location.lat},${test.location.lng},z${test.location.z},b${bearing},p${pitch}`;
-  let url = `${baseUrl}/?${searchParam.toString()}&debug=true&debug.screenshot=true#${loc}`;
-  if (baseUrl.indexOf('/?') > 0) {
-    url = `${baseUrl}&${searchParam.toString()}&debug=true&debug.screenshot=true#${loc}`;
-  }
-  if (!url.startsWith('http')) url = `https://${url}`;
-  return url;
+
+  let urlStr = `${url.href}#${loc}`;
+  if (!urlStr.startsWith('http')) urlStr = `https://${url}`;
+  return urlStr;
 }
 
 async function takeScreenshot(page: Page, url: string, output: string, timeout: number): Promise<void> {
