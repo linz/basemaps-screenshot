@@ -1,0 +1,3482 @@
+[
+  {
+    "name": "Aeroway-Aerodrome-1",
+    "location": {
+      "lat": -40.9747671,
+      "lng": 175.6325495,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.9747671,175.6325495,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Aeroway-Aerodrome-Label-1",
+    "location": {
+      "lat": -45.0214642,
+      "lng": 168.7440669,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-45.0214642,168.7440669,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Aeroway-Helipads-1",
+    "location": {
+      "lat": -38.16688,
+      "lng": 176.58655,
+      "z": 12
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.16688,176.58655,z12",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Aeroway-Runway-Grass-Label-1",
+    "location": {
+      "lat": -44.9816974,
+      "lng": 169.2181303,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-44.9816974,169.2181303,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Aeroway-Runway-Grass-Ln-1",
+    "location": {
+      "lat": -36.660016,
+      "lng": 174.609676,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.660016,174.609676,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Aeroway-Runway-Grass-Ln-2",
+    "location": {
+      "lat": -36.6599255,
+      "lng": 174.6093239,
+      "z": 17
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.6599255,174.6093239,z17",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Aeroway-Runway-Sealed-1",
+    "location": {
+      "lat": -43.81569,
+      "lng": -176.47057,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.81569,-176.47057,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Aeroway-Runway-Sealed-2",
+    "location": {
+      "lat": -43.48728,
+      "lng": 172.54415,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.48728,172.54415,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Aeroway-Runway-Sealed-3",
+    "location": {
+      "lat": -43.4882345,
+      "lng": 172.544889,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.4882345,172.544889,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Aeroway-Runway-Sealed-Ln-1",
+    "location": {
+      "lat": -43.48728,
+      "lng": 172.54415,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.48728,172.54415,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "All-Canal-Names-1",
+    "location": {
+      "lat": -37.7920298,
+      "lng": 176.5079401,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.7920298,176.5079401,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "All-Lake-Names-1",
+    "location": {
+      "lat": -38.76404,
+      "lng": 177.11109,
+      "z": 12
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.76404,177.11109,z12",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "All-Reef-Names-1",
+    "location": {
+      "lat": -37.8676929,
+      "lng": 174.7275711,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.8676929,174.7275711,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "All-River-Names-1",
+    "location": {
+      "lat": -39.0046,
+      "lng": 175.82077,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.0046,175.82077,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "All-Waterway-River-Names-1",
+    "location": {
+      "lat": -39.003617,
+      "lng": 175.8173908,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.003617,175.8173908,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Buildings-1",
+    "location": {
+      "lat": -45.9041313,
+      "lng": 170.5050364,
+      "z": 18
+    },
+    "link": "https://basemaps.linz.govt.nz/@-45.9041313,170.5050364,z18",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Buildings-Outline-1",
+    "location": {
+      "lat": -45.8757879,
+      "lng": 170.3357978,
+      "z": 18
+    },
+    "link": "https://basemaps.linz.govt.nz/@-45.8757879,170.3357978,z18",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Cemetery-Pt-1",
+    "location": {
+      "lat": -50.5441404,
+      "lng": 166.2068977,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-50.5441404,166.2068977,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Cliff-Ln-1",
+    "location": {
+      "lat": -39.019685,
+      "lng": 175.8721828,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.019685,175.8721828,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Coastline-Line2-1",
+    "location": {
+      "lat": -45.7625151,
+      "lng": 166.6452851,
+      "z": 12
+    },
+    "link": "https://basemaps.linz.govt.nz/@-45.7625151,166.6452851,z12",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Contours-All-1",
+    "location": {
+      "lat": -40.9986619,
+      "lng": 174.957546,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.9986619,174.957546,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Contours-All-2",
+    "location": {
+      "lat": -40.99832,
+      "lng": 174.95744,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.99832,174.95744,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Contours-Designated-1",
+    "location": {
+      "lat": -43.9003117,
+      "lng": 171.7794929,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.9003117,171.7794929,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Contours-Designated-2",
+    "location": {
+      "lat": -43.90745,
+      "lng": 171.78151,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.90745,171.78151,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Contours-Index-1",
+    "location": {
+      "lat": -43.9581895,
+      "lng": 170.6693876,
+      "z": 11
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.9581895,170.6693876,z11",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Contours-Label-1",
+    "location": {
+      "lat": -44.069752,
+      "lng": 169.7117248,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-44.069752,169.7117248,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Contours-Natural-1",
+    "location": {
+      "lat": -36.0453033,
+      "lng": 173.8376974,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.0453033,173.8376974,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Contours-Natural-2",
+    "location": {
+      "lat": -36.047479,
+      "lng": 173.833685,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.047479,173.833685,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Cutting-Ln-1",
+    "location": {
+      "lat": -46.00885,
+      "lng": 170.1225,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-46.00885,170.1225,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Dry-Dock-ln-1",
+    "location": {
+      "lat": -36.8291699,
+      "lng": 174.7849831,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.8291699,174.7849831,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Dry-Dock-ln-2",
+    "location": {
+      "lat": -36.8293777,
+      "lng": 174.785322,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.8293777,174.785322,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Fence-Ln-1",
+    "location": {
+      "lat": -36.6308801,
+      "lng": 174.6350745,
+      "z": 17
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.6308801,174.6350745,z17",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Fence-posts-1",
+    "location": {
+      "lat": -36.6311054,
+      "lng": 174.6366132,
+      "z": 19
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.6311054,174.6366132,z19",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Fumarole-1",
+    "location": {
+      "lat": -38.6195904,
+      "lng": 176.0612205,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.6195904,176.0612205,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Grave-Pt-1",
+    "location": {
+      "lat": -43.8313756,
+      "lng": 170.112208,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.8313756,170.112208,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "GravelPit-Label-1",
+    "location": {
+      "lat": -40.3925251,
+      "lng": 175.5769784,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.3925251,175.5769784,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Height-Point-1",
+    "location": {
+      "lat": -43.6027412,
+      "lng": 170.2612884,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.6027412,170.2612884,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Embankment-1",
+    "location": {
+      "lat": -41.3000503,
+      "lng": 173.1433726,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.3000503,173.1433726,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-GolfCourse-1",
+    "location": {
+      "lat": -36.879989,
+      "lng": 174.8362794,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.879989,174.8362794,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-GolfCourse-Symbol-1",
+    "location": {
+      "lat": -38.1593355,
+      "lng": 176.2415524,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.1593355,176.2415524,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Ice-1",
+    "location": {
+      "lat": -44.18853,
+      "lng": 170.4090802,
+      "z": 7
+    },
+    "link": "https://basemaps.linz.govt.nz/@-44.18853,170.4090802,z7",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Moraine-poly-1",
+    "location": {
+      "lat": -43.6044864,
+      "lng": 170.220444,
+      "z": 17
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.6044864,170.220444,z17",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Moraine-poly-half-1",
+    "location": {
+      "lat": -43.6115821,
+      "lng": 170.2064718,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.6115821,170.2064718,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Moraine-Wall-1",
+    "location": {
+      "lat": -43.6452679,
+      "lng": 170.2056082,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.6452679,170.2056082,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Moraine-Wall-2",
+    "location": {
+      "lat": -43.63798,
+      "lng": 170.197,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.63798,170.197,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Orchard-Fill-1",
+    "location": {
+      "lat": -39.61101,
+      "lng": 176.91013,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.61101,176.91013,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Rock-1",
+    "location": {
+      "lat": -37.7368203,
+      "lng": 177.6895336,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.7368203,177.6895336,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Rock-Ln-1",
+    "location": {
+      "lat": -36.779242,
+      "lng": 175.43618,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.779242,175.43618,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Rock-Pt-1",
+    "location": {
+      "lat": -37.73241,
+      "lng": 177.69234,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.73241,177.69234,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Sand-1",
+    "location": {
+      "lat": -37.36559,
+      "lng": 174.73378,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.36559,174.73378,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Sand-land-pattern-half-1",
+    "location": {
+      "lat": -43.8163825,
+      "lng": 172.6310327,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.8163825,172.6310327,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Sand-Pattern-1",
+    "location": {
+      "lat": -43.8073383,
+      "lng": 172.6438758,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.8073383,172.6438758,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Sand-Pattern-2",
+    "location": {
+      "lat": -43.80584,
+      "lng": 172.64392,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.80584,172.64392,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Scree-poly-1",
+    "location": {
+      "lat": -43.6675508,
+      "lng": 170.2072031,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.6675508,170.2072031,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Scree-poly-half-1",
+    "location": {
+      "lat": -43.6171131,
+      "lng": 170.2527023,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.6171131,170.2527023,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Scree-poly-half-2",
+    "location": {
+      "lat": -43.59776,
+      "lng": 170.281,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.59776,170.281,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Shingle-pattern-shade-1",
+    "location": {
+      "lat": -43.6460838,
+      "lng": 170.2312657,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.6460838,170.2312657,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Shingle-poly-1",
+    "location": {
+      "lat": -43.6446353,
+      "lng": 170.2584324,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.6446353,170.2584324,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Shingle-poly-quarter-1",
+    "location": {
+      "lat": -43.6651798,
+      "lng": 170.2072082,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.6651798,170.2072082,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Shingle-poly-quarter-2",
+    "location": {
+      "lat": -43.6460692,
+      "lng": 170.2288946,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.6460692,170.2288946,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Swamp-Fill-1",
+    "location": {
+      "lat": -37.41644,
+      "lng": 175.58122,
+      "z": 12
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.41644,175.58122,z12",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Swamp-Ln-1",
+    "location": {
+      "lat": -37.4243825,
+      "lng": 175.5110835,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.4243825,175.5110835,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Swamp-Name-1",
+    "location": {
+      "lat": -41.0689968,
+      "lng": 174.8745264,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.0689968,174.8745264,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Swamp-sparse-1",
+    "location": {
+      "lat": -37.4215717,
+      "lng": 175.5547498,
+      "z": 17
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.4215717,175.5547498,z17",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Swamp-sparse-half-1",
+    "location": {
+      "lat": -42.1415587,
+      "lng": 172.9358666,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-42.1415587,172.9358666,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Swamp-sparse-half-2",
+    "location": {
+      "lat": -37.4228556,
+      "lng": 175.5521377,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.4228556,175.5521377,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Tree-Pt-1",
+    "location": {
+      "lat": -19.0786278,
+      "lng": -169.8938895,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-19.0786278,-169.8938895,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcover-Vineyard-Fill-1",
+    "location": {
+      "lat": -39.6090835,
+      "lng": 176.8960215,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.6090835,176.8960215,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landcrop-RockOutcrop-1",
+    "location": {
+      "lat": -41.7021139,
+      "lng": 172.6526884,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.7021139,172.6526884,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Boom-1",
+    "location": {
+      "lat": -37.9253615,
+      "lng": 175.5448181,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.9253615,175.5448181,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Breakwater-1",
+    "location": {
+      "lat": -45.0184903,
+      "lng": 168.7179923,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-45.0184903,168.7179923,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Breakwater-2",
+    "location": {
+      "lat": -44.2395263,
+      "lng": -176.2376891,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-44.2395263,-176.2376891,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Cemetery-poly-half-1",
+    "location": {
+      "lat": -19.8427693,
+      "lng": -157.7005703,
+      "z": 17
+    },
+    "link": "https://basemaps.linz.govt.nz/@-19.8427693,-157.7005703,z17",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Dam-1",
+    "location": {
+      "lat": -38.3514245,
+      "lng": 175.7423089,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.3514245,175.7423089,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Dam-2",
+    "location": {
+      "lat": -44.1911513,
+      "lng": 170.1434404,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-44.1911513,170.1434404,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Dam-Label-1",
+    "location": {
+      "lat": -38.114376,
+      "lng": 176.815593,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.114376,176.815593,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Gravelpit-poly-1",
+    "location": {
+      "lat": -40.3939891,
+      "lng": 175.5805959,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.3939891,175.5805959,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Gravelpit-poly-half-1",
+    "location": {
+      "lat": -40.392782,
+      "lng": 175.5702909,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.392782,175.5702909,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-GravelPit-poly-quarter-1",
+    "location": {
+      "lat": -40.392236,
+      "lng": 175.5803921,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.392236,175.5803921,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-GravelPit-shade-1",
+    "location": {
+      "lat": -40.3933,
+      "lng": 175.56968,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.3933,175.56968,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Ladder-1",
+    "location": {
+      "lat": -41.4270113,
+      "lng": 173.4042923,
+      "z": 17
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.4270113,173.4042923,z17",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Landfill-1",
+    "location": {
+      "lat": -41.1601987,
+      "lng": 174.9968423,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.1601987,174.9968423,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Landfill-Symbol-1",
+    "location": {
+      "lat": -36.9393765,
+      "lng": 174.9968789,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.9393765,174.9968789,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Mangrove-1",
+    "location": {
+      "lat": -36.8573342,
+      "lng": 174.8047424,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.8573342,174.8047424,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Mangrove-poly-sparse-1",
+    "location": {
+      "lat": -36.8602075,
+      "lng": 174.8017771,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.8602075,174.8017771,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Mangrove-poly-sparse-half-1",
+    "location": {
+      "lat": -36.8608029,
+      "lng": 174.8022591,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.8608029,174.8022591,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Mangrove-Symbol-1",
+    "location": {
+      "lat": -36.8637927,
+      "lng": 174.797896,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.8637927,174.797896,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-MarineFarm-1",
+    "location": {
+      "lat": -41.1022593,
+      "lng": 173.8969207,
+      "z": 12
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.1022593,173.8969207,z12",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-MarineFarm-2",
+    "location": {
+      "lat": -41.1022593,
+      "lng": 173.8969207,
+      "z": 12
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.1022593,173.8969207,z12",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-MarineFarm-half-1",
+    "location": {
+      "lat": -41.1101374,
+      "lng": 173.9664091,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.1101374,173.9664091,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-MarineFarm-Label-1",
+    "location": {
+      "lat": -36.183273,
+      "lng": 175.350001,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.183273,175.350001,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-MarineFarm-Ln-1",
+    "location": {
+      "lat": -41.23758878,
+      "lng": 173.80339646,
+      "z": 10
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.23758878,173.80339646,z10",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Pond-1",
+    "location": {
+      "lat": -38.1455667,
+      "lng": 176.2661039,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.1455667,176.2661039,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Powerline-1",
+    "location": {
+      "lat": -40.2811715,
+      "lng": 175.6425307,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.2811715,175.6425307,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-PumicePit-1",
+    "location": {
+      "lat": -38.7395724,
+      "lng": 176.076276,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.7395724,176.076276,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-PumicePit-2",
+    "location": {
+      "lat": -38.736143,
+      "lng": 176.073772,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.736143,176.073772,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-PumicePit-Label-1",
+    "location": {
+      "lat": -38.73715,
+      "lng": 176.07673,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.73715,176.07673,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Reservoir-Covered-1",
+    "location": {
+      "lat": -46.3786012,
+      "lng": 168.3579826,
+      "z": 18
+    },
+    "link": "https://basemaps.linz.govt.nz/@-46.3786012,168.3579826,z18",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Reservoir-Covered-2",
+    "location": {
+      "lat": -21.212217,
+      "lng": -159.7734812,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-21.212217,-159.7734812,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Reservoir-Empty-1",
+    "location": {
+      "lat": -21.2583061,
+      "lng": -159.7616533,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-21.2583061,-159.7616533,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Residential-1",
+    "location": {
+      "lat": -40.2221024,
+      "lng": 175.6035008,
+      "z": 11
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.2221024,175.6035008,z11",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Residential-2",
+    "location": {
+      "lat": -40.2236036,
+      "lng": 175.5934693,
+      "z": 12
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.2236036,175.5934693,z12",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Telephone-1",
+    "location": {
+      "lat": -41.2081213,
+      "lng": 174.2934586,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.2081213,174.2934586,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Tower-1",
+    "location": {
+      "lat": -40.4781611,
+      "lng": 175.282166,
+      "z": 17
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.4781611,175.282166,z17",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Landuse-Walkwire-1",
+    "location": {
+      "lat": -45.7033969,
+      "lng": 167.0018257,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-45.7033969,167.0018257,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Mast-Label-Triangle-1",
+    "location": {
+      "lat": -46.1691625,
+      "lng": 167.8363273,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-46.1691625,167.8363273,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Parcels-Ln-1",
+    "location": {
+      "lat": -43.9006698,
+      "lng": 171.7605437,
+      "z": 18
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.9006698,171.7605437,z18",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-13-Natural-1",
+    "location": {
+      "lat": -40.4880005,
+      "lng": 176.609716,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.4880005,176.609716,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-13-Natural-2",
+    "location": {
+      "lat": -39.300306,
+      "lng": 174.0743377,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.300306,174.0743377,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-13-Natural-3",
+    "location": {
+      "lat": -43.7303282,
+      "lng": 173.0488253,
+      "z": 12
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.7303282,173.0488253,z12",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-13-Place-1",
+    "location": {
+      "lat": -36.8986033,
+      "lng": 174.9201663,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.8986033,174.9201663,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-13-Place-2",
+    "location": {
+      "lat": -36.8093833,
+      "lng": 175.1027447,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.8093833,175.1027447,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-13-Place-3",
+    "location": {
+      "lat": -43.5823411,
+      "lng": 172.7806405,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.5823411,172.7806405,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-13-Water-1",
+    "location": {
+      "lat": -43.1905791,
+      "lng": 170.2085498,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.1905791,170.2085498,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-13-Water-2",
+    "location": {
+      "lat": -45.7655422,
+      "lng": 166.5962106,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-45.7655422,166.5962106,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-3-12-Natural-1",
+    "location": {
+      "lat": -43.6192033,
+      "lng": 170.019694,
+      "z": 8
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.6192033,170.019694,z8",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-3-12-Natural-2",
+    "location": {
+      "lat": -38.9874772,
+      "lng": 177.9519696,
+      "z": 8
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.9874772,177.9519696,z8",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-3-12-Natural-3",
+    "location": {
+      "lat": -34.4179085,
+      "lng": 172.6373752,
+      "z": 8
+    },
+    "link": "https://basemaps.linz.govt.nz/@-34.4179085,172.6373752,z8",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-3-12-Place-1",
+    "location": {
+      "lat": -38.1085512,
+      "lng": 176.2213148,
+      "z": 10
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.1085512,176.2213148,z10",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-3-12-Place-2",
+    "location": {
+      "lat": -44.6497932,
+      "lng": 169.2285378,
+      "z": 11
+    },
+    "link": "https://basemaps.linz.govt.nz/@-44.6497932,169.2285378,z11",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-3-12-Place-3",
+    "location": {
+      "lat": -39.5674497,
+      "lng": 175.5118604,
+      "z": 6
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.5674497,175.5118604,z6",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-3-12-Place-4",
+    "location": {
+      "lat": -36.1384211,
+      "lng": 175.4223096,
+      "z": 8
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.1384211,175.4223096,z8",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-3-12-Place-5",
+    "location": {
+      "lat": -49.677102,
+      "lng": 178.8145236,
+      "z": 10
+    },
+    "link": "https://basemaps.linz.govt.nz/@-49.677102,178.8145236,z10",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-3-12-Water-1",
+    "location": {
+      "lat": -38.8180999,
+      "lng": 175.8784465,
+      "z": 10
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.8180999,175.8784465,z10",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-3-12-Water-2",
+    "location": {
+      "lat": -39.4922515,
+      "lng": -179.0815308,
+      "z": 9
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.4922515,-179.0815308,z9",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-3-12-Water-3",
+    "location": {
+      "lat": -39.4533985,
+      "lng": 160.5930971,
+      "z": 5
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.4533985,160.5930971,z5",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-3-12-Water-4",
+    "location": {
+      "lat": -45.8033497,
+      "lng": 166.6617955,
+      "z": 9
+    },
+    "link": "https://basemaps.linz.govt.nz/@-45.8033497,166.6617955,z9",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-3-12-Water-5",
+    "location": {
+      "lat": -43.1866518,
+      "lng": 170.2409734,
+      "z": 11
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.1866518,170.2409734,z11",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-3-12-Water-6",
+    "location": {
+      "lat": -42.877975,
+      "lng": 168.4955779,
+      "z": 9
+    },
+    "link": "https://basemaps.linz.govt.nz/@-42.877975,168.4955779,z9",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-3-12-Water-7",
+    "location": {
+      "lat": -49.9896595,
+      "lng": -176.344714,
+      "z": 8
+    },
+    "link": "https://basemaps.linz.govt.nz/@-49.9896595,-176.344714,z8",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Place-Names-3-12-Water-8",
+    "location": {
+      "lat": -27.0909205,
+      "lng": 167.4702365,
+      "z": 8
+    },
+    "link": "https://basemaps.linz.govt.nz/@-27.0909205,167.4702365,z8",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Beacon-1",
+    "location": {
+      "lat": -41.3177262,
+      "lng": 174.8419955,
+      "z": 12
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.3177262,174.8419955,z12",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Beacon-Lighthouse-1",
+    "location": {
+      "lat": -41.6077408,
+      "lng": 175.2826231,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.6077408,175.2826231,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Bivouac-1",
+    "location": {
+      "lat": -45.3652775,
+      "lng": 168.4033574,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-45.3652775,168.4033574,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Bivouac-2",
+    "location": {
+      "lat": -42.8936757,
+      "lng": 171.2636078,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-42.8936757,171.2636078,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Bivouac-Rock-1",
+    "location": {
+      "lat": -44.7379243,
+      "lng": 168.0356201,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-44.7379243,168.0356201,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Boatramp-Casing-1",
+    "location": {
+      "lat": -37.9467579,
+      "lng": 177.0068235,
+      "z": 17
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.9467579,177.0068235,z17",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Buoy-1",
+    "location": {
+      "lat": -38.17413,
+      "lng": 174.67431,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.17413,174.67431,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Cave-Pt-1",
+    "location": {
+      "lat": -46.6094582,
+      "lng": 169.3995902,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-46.6094582,169.3995902,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Cave-Pt-2",
+    "location": {
+      "lat": -19.0594455,
+      "lng": -169.839857,
+      "z": 12
+    },
+    "link": "https://basemaps.linz.govt.nz/@-19.0594455,-169.839857,z12",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Chimney-1",
+    "location": {
+      "lat": -37.39181,
+      "lng": 175.865437,
+      "z": 17
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.39181,175.865437,z17",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Dredge-1",
+    "location": {
+      "lat": -42.5858924,
+      "lng": 171.1686729,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-42.5858924,171.1686729,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Dredge-Tailing-1",
+    "location": {
+      "lat": -42.3644429,
+      "lng": 171.4207182,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-42.3644429,171.4207182,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-FishFarm-1",
+    "location": {
+      "lat": -43.8720926,
+      "lng": 172.2847266,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.8720926,172.2847266,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-FishFarm-Label-1",
+    "location": {
+      "lat": -43.8723178,
+      "lng": 172.2853086,
+      "z": 17
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.8723178,172.2853086,z17",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Flare-1",
+    "location": {
+      "lat": -39.403359,
+      "lng": 173.814071,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.403359,173.814071,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Floodgate-1",
+    "location": {
+      "lat": -37.1907995,
+      "lng": 175.5659757,
+      "z": 17
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.1907995,175.5659757,z17",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-GasValve-1",
+    "location": {
+      "lat": -39.0302855,
+      "lng": 174.16744,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.0302855,174.16744,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Gate-1",
+    "location": {
+      "lat": -41.1502717,
+      "lng": 174.9809251,
+      "z": 17
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.1502717,174.9809251,z17",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Geobore-Label-Circle-1",
+    "location": {
+      "lat": -38.662796,
+      "lng": 176.0894385,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.662796,176.0894385,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Geobore-Label-Circle-2",
+    "location": {
+      "lat": -38.6170982,
+      "lng": 176.0544724,
+      "z": 20
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.6170982,176.0544724,z20",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Grave-Pts-1",
+    "location": {
+      "lat": -43.8311909,
+      "lng": 170.1122241,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.8311909,170.1122241,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Grave-Pts-2",
+    "location": {
+      "lat": -19.0155464,
+      "lng": -169.9200848,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-19.0155464,-169.9200848,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Historic-Site-1",
+    "location": {
+      "lat": -35.2659391,
+      "lng": 174.0820337,
+      "z": 17
+    },
+    "link": "https://basemaps.linz.govt.nz/@-35.2659391,174.0820337,z17",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Hut-Label-1",
+    "location": {
+      "lat": -43.0338693,
+      "lng": 171.3208201,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.0338693,171.3208201,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Kiln-1",
+    "location": {
+      "lat": -10.8531086,
+      "lng": -165.8407477,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-10.8531086,-165.8407477,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Ladder-1",
+    "location": {
+      "lat": -41.4275265,
+      "lng": 173.4064004,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.4275265,173.4064004,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Ladder-Pt-1",
+    "location": {
+      "lat": -40.9166599,
+      "lng": 175.3290218,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.9166599,175.3290218,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Mine-Pt-1",
+    "location": {
+      "lat": -45.7533045,
+      "lng": 168.9175391,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-45.7533045,168.9175391,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Mine-Quarry-Outline-1",
+    "location": {
+      "lat": -41.2339818,
+      "lng": 174.8082496,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.2339818,174.8082496,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Mine-Quarry-Poly-1",
+    "location": {
+      "lat": -41.2342973,
+      "lng": 174.8043267,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.2342973,174.8043267,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Monument-1",
+    "location": {
+      "lat": -41.2924051,
+      "lng": 174.7941818,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.2924051,174.7941818,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Pa-1",
+    "location": {
+      "lat": -39.1092611,
+      "lng": 173.973247,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.1092611,173.973247,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Pipeline-1",
+    "location": {
+      "lat": -38.6555172,
+      "lng": 176.074486,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.6555172,176.074486,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Pylon-1",
+    "location": {
+      "lat": -40.2798287,
+      "lng": 175.6438671,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.2798287,175.6438671,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Quarry-Poly-Name-1",
+    "location": {
+      "lat": -41.2240599,
+      "lng": 174.846447,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.2240599,174.846447,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Racetrack-1",
+    "location": {
+      "lat": -43.5257952,
+      "lng": 172.5127637,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.5257952,172.5127637,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Racetrack-Label-1",
+    "location": {
+      "lat": -43.5319066,
+      "lng": 172.4828614,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.5319066,172.4828614,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Railway-Symbol-1",
+    "location": {
+      "lat": -41.175097,
+      "lng": 174.828831,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.175097,174.828831,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Redoubt-1",
+    "location": {
+      "lat": -39.1094672,
+      "lng": 173.9598245,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.1094672,173.9598245,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-RifleRange-Fill-1",
+    "location": {
+      "lat": -40.3971718,
+      "lng": 175.58959,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.3971718,175.58959,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-RifleRange-Label-1",
+    "location": {
+      "lat": -40.3969292,
+      "lng": 175.589711,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.3969292,175.589711,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Showground-1",
+    "location": {
+      "lat": -37.7783037,
+      "lng": 175.286041,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.7783037,175.286041,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Showground-Symbol-1",
+    "location": {
+      "lat": -36.7808427,
+      "lng": 174.5584784,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.7808427,174.5584784,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Siphon-1",
+    "location": {
+      "lat": -43.6560164,
+      "lng": 171.5641653,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.6560164,171.5641653,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Siphon-Pt-1",
+    "location": {
+      "lat": -44.8596782,
+      "lng": 168.6421541,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-44.8596782,168.6421541,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-SportsField-1",
+    "location": {
+      "lat": -41.300447,
+      "lng": 174.7807116,
+      "z": 18
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.300447,174.7807116,z18",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-SportsField-Label-1",
+    "location": {
+      "lat": -41.300246,
+      "lng": 174.78051,
+      "z": 18
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.300246,174.78051,z18",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Storage-Tank-Fuel-1",
+    "location": {
+      "lat": -41.2404259,
+      "lng": 174.9097083,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.2404259,174.9097083,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Storage-Tank-Fuel-2",
+    "location": {
+      "lat": -41.2404259,
+      "lng": 174.9097083,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.2404259,174.9097083,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Storage-Tank-Water-1",
+    "location": {
+      "lat": -35.7432821,
+      "lng": 174.3327504,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-35.7432821,174.3327504,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Tank-Pt-Background-1",
+    "location": {
+      "lat": -37.0070587,
+      "lng": 174.790213,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.0070587,174.790213,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Tank-Pt-Background-2",
+    "location": {
+      "lat": -37.0070587,
+      "lng": 174.790213,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.0070587,174.790213,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Tank-Pt-Fill-Fuel-1",
+    "location": {
+      "lat": -39.4807222,
+      "lng": 176.902286,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.4807222,176.902286,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Tank-Pt-Fill-Water-1",
+    "location": {
+      "lat": -39.4762923,
+      "lng": 176.9140196,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.4762923,176.9140196,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Trig-Elevation-1",
+    "location": {
+      "lat": -43.1244838,
+      "lng": 172.2473799,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.1244838,172.2473799,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Well-1",
+    "location": {
+      "lat": -39.3165429,
+      "lng": 174.3534189,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.3165429,174.3534189,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-wharf-edge-1",
+    "location": {
+      "lat": -45.8712499,
+      "lng": 170.5209027,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-45.8712499,170.5209027,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Wharf-Ln-1",
+    "location": {
+      "lat": -35.8048173,
+      "lng": 174.33942557,
+      "z": 17
+    },
+    "link": "https://basemaps.linz.govt.nz/@-35.8048173,174.33942557,z17",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Wharf-Ln-2",
+    "location": {
+      "lat": -35.8048173,
+      "lng": 174.3394256,
+      "z": 17
+    },
+    "link": "https://basemaps.linz.govt.nz/@-35.8048173,174.3394256,z17",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Windmill-1",
+    "location": {
+      "lat": -41.2449896,
+      "lng": 174.6886289,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.2449896,174.6886289,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Wreck-1",
+    "location": {
+      "lat": -40.7355567,
+      "lng": 175.1283497,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.7355567,175.1283497,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Poi-Wreck-2",
+    "location": {
+      "lat": -41.3270408,
+      "lng": 174.1800363,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.3270408,174.1800363,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Radar-Dome-1",
+    "location": {
+      "lat": -46.6667895,
+      "lng": 169.0136145,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-46.6667895,169.0136145,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Satellite-Station-Pt-1",
+    "location": {
+      "lat": -41.5763966,
+      "lng": 173.7403117,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.5763966,173.7403117,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Shaft-1",
+    "location": {
+      "lat": -39.154105,
+      "lng": 175.8383422,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.154105,175.8383422,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Sinkhole-1",
+    "location": {
+      "lat": -40.9061956,
+      "lng": 172.7440491,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.9061956,172.7440491,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Slip-Lines-1",
+    "location": {
+      "lat": -37.8490916,
+      "lng": 178.2513635,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.8490916,178.2513635,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Slip-Ln-1",
+    "location": {
+      "lat": -37.84293,
+      "lng": 178.24919,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.84293,178.24919,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Slipway-Symbol-Dash-1",
+    "location": {
+      "lat": -46.939024,
+      "lng": 168.169249,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-46.939024,168.169249,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Slipway-Symbol-Line-1",
+    "location": {
+      "lat": -46.9389023,
+      "lng": 168.1673308,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-46.9389023,168.1673308,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Soakhole-1",
+    "location": {
+      "lat": -40.8196967,
+      "lng": 172.9125496,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.8196967,172.9125496,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Stockyard-1",
+    "location": {
+      "lat": -41.7455906,
+      "lng": 174.2154363,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.7455906,174.2154363,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Swamp-pt-1",
+    "location": {
+      "lat": -37.7106,
+      "lng": 176.237841,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.7106,176.237841,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-1-UnderCons-1",
+    "location": {
+      "lat": -37.8165592,
+      "lng": 175.3433892,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.8165592,175.3433892,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-1Casing-1",
+    "location": {
+      "lat": -38.5647405,
+      "lng": 176.4021643,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.5647405,176.4021643,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-1HWY-1",
+    "location": {
+      "lat": -35.1944381,
+      "lng": 173.666681,
+      "z": 8
+    },
+    "link": "https://basemaps.linz.govt.nz/@-35.1944381,173.666681,z8",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-1HWY-Casing-1",
+    "location": {
+      "lat": -36.9672929,
+      "lng": 174.7974252,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.9672929,174.7974252,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-1HWY-Casing-14-1",
+    "location": {
+      "lat": -41.2442871,
+      "lng": 174.8144664,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.2442871,174.8144664,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-1Metalled-Orange-1",
+    "location": {
+      "lat": -34.88376,
+      "lng": 173.09621,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-34.88376,173.09621,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-1Metalled-White-1",
+    "location": {
+      "lat": -35.1425797,
+      "lng": 173.1941735,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-35.1425797,173.1941735,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-1Sealed-1",
+    "location": {
+      "lat": -35.3907032,
+      "lng": 173.5180889,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-35.3907032,173.5180889,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-2-UnderCons-1",
+    "location": {
+      "lat": -37.8164069,
+      "lng": 175.3433413,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.8164069,175.3433413,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-2+Sealed-1",
+    "location": {
+      "lat": -41.245083,
+      "lng": 174.810957,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.245083,174.810957,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-2HWY-Casing-14-1",
+    "location": {
+      "lat": -36.9963644,
+      "lng": 174.8853324,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.9963644,174.8853324,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-2Metalled-White-1",
+    "location": {
+      "lat": -36.0734996,
+      "lng": 174.0221626,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.0734996,174.0221626,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-2UnMetalled-1",
+    "location": {
+      "lat": -40.3183726,
+      "lng": 175.8018867,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.3183726,175.8018867,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-Bridge-Foot-1",
+    "location": {
+      "lat": -41.288333,
+      "lng": 174.778946,
+      "z": 18
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.288333,174.778946,z18",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-Bridge-VT-1",
+    "location": {
+      "lat": -36.8184829,
+      "lng": 174.7485806,
+      "z": 12
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.8184829,174.7485806,z12",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-Cable-Car-Industrial-1",
+    "location": {
+      "lat": -37.540762,
+      "lng": 175.1337984,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.540762,175.1337984,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-Cable-Car-People-1",
+    "location": {
+      "lat": -29.277767,
+      "lng": -177.891561,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-29.277767,-177.891561,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-ClosedFootRouteTracks-Shadow\"-1",
+    "location": {
+      "lat": -41.344958,
+      "lng": 175.000297,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.344958,175.000297,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-ClosedFootTracks-Shadow-1",
+    "location": {
+      "lat": -36.99827,
+      "lng": 174.54953,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.99827,174.54953,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-CycleTracks-1",
+    "location": {
+      "lat": -38.6447741,
+      "lng": 176.7020174,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.6447741,176.7020174,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-CycleTracks-2",
+    "location": {
+      "lat": -38.6447741,
+      "lng": 176.7020174,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.6447741,176.7020174,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-Ferry-Symbol-1",
+    "location": {
+      "lat": -35.2787241,
+      "lng": 174.1132893,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-35.2787241,174.1132893,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-FerryCrossing-1",
+    "location": {
+      "lat": -35.273981,
+      "lng": 174.0891085,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-35.273981,174.0891085,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-FerryCrossing-2",
+    "location": {
+      "lat": -35.273981,
+      "lng": 174.0891085,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-35.273981,174.0891085,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-FootTracks-1",
+    "location": {
+      "lat": -40.9766072,
+      "lng": 174.9970756,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-40.9766072,174.9970756,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-FootTracks-Shadow-1",
+    "location": {
+      "lat": -38.5305081,
+      "lng": 176.785396,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.5305081,176.785396,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-Fords-1",
+    "location": {
+      "lat": -36.5303382,
+      "lng": 175.3315177,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.5303382,175.3315177,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-HWY-Casing-1",
+    "location": {
+      "lat": -37.7318999,
+      "lng": 175.2136467,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.7318999,175.2136467,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-Railway-High-1",
+    "location": {
+      "lat": -39.0838813,
+      "lng": 175.6278887,
+      "z": 11
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.0838813,175.6278887,z11",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-Railway-Multiple-1",
+    "location": {
+      "lat": -41.266404,
+      "lng": 174.786707,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.266404,174.786707,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-Railway-Topo250-1",
+    "location": {
+      "lat": -39.064989,
+      "lng": 175.892103,
+      "z": 8
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.064989,175.892103,z8",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-Roads-9-Casing-1",
+    "location": {
+      "lat": -38.0849576,
+      "lng": 176.3939688,
+      "z": 8
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.0849576,176.3939688,z8",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-Ski-Lift-1",
+    "location": {
+      "lat": -44.8662943,
+      "lng": 168.9543331,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-44.8662943,168.9543331,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-Ski-Tow-1",
+    "location": {
+      "lat": -43.2713509,
+      "lng": 171.6338092,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.2713509,171.6338092,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-Tunnel-VT-1",
+    "location": {
+      "lat": -36.8930177,
+      "lng": 174.704023,
+      "z": 17
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.8930177,174.704023,z17",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-VehicleTracks-1",
+    "location": {
+      "lat": -38.5626431,
+      "lng": 176.2310171,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.5626431,176.2310171,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Transport-VehicleTracks-Shadow-1",
+    "location": {
+      "lat": -38.5105258,
+      "lng": 176.7337362,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.5105258,176.7337362,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Vegetation-Exotic-Random-Dense-1",
+    "location": {
+      "lat": -36.7786142,
+      "lng": 175.4469594,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.7786142,175.4469594,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Vegetation-Exotic-Random-Dense-Half-1",
+    "location": {
+      "lat": -36.7785892,
+      "lng": 175.4471059,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.7785892,175.4471059,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Vegetation-Exotic-Random-Dense-Quarter-1",
+    "location": {
+      "lat": -36.7723746,
+      "lng": 175.4075048,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-36.7723746,175.4075048,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Vegetation-Ln-1",
+    "location": {
+      "lat": -43.4685568,
+      "lng": 172.1292696,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.4685568,172.1292696,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Vegetation-Native-1",
+    "location": {
+      "lat": -38.94505,
+      "lng": 175.71798,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.94505,175.71798,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Vegetation-Scatteredscrub-1",
+    "location": {
+      "lat": -41.24546,
+      "lng": 174.64687,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.24546,174.64687,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-Canal-Ln-1",
+    "location": {
+      "lat": -37.408351,
+      "lng": 175.4961047,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.408351,175.4961047,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-Canal-Ln-2",
+    "location": {
+      "lat": -37.408351,
+      "lng": 175.4961047,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.408351,175.4961047,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-Canal-Poly-1",
+    "location": {
+      "lat": -37.3802804,
+      "lng": 175.582316,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.3802804,175.582316,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-Canal-Poly-2",
+    "location": {
+      "lat": -37.3802804,
+      "lng": 175.582316,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.3802804,175.582316,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-Canal-Poly-Named-1",
+    "location": {
+      "lat": -37.9357747,
+      "lng": 176.8820242,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.9357747,176.8820242,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-Drain-Ln-1",
+    "location": {
+      "lat": -37.9453965,
+      "lng": 176.89836,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.9453965,176.89836,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-Drain-Ln-2",
+    "location": {
+      "lat": -37.9453965,
+      "lng": 176.89836,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.9453965,176.89836,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-Lagoon-1",
+    "location": {
+      "lat": -43.8652131,
+      "lng": 172.3052688,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.8652131,172.3052688,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-Lagoon-2",
+    "location": {
+      "lat": -43.8648861,
+      "lng": 172.3048203,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.8648861,172.3048203,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-Lake-1",
+    "location": {
+      "lat": -37.6788127,
+      "lng": 175.2342078,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.6788127,175.2342078,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-Lake-2",
+    "location": {
+      "lat": -39.6790667,
+      "lng": 175.8619721,
+      "z": 12
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.6790667,175.8619721,z12",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-Lake-Named-1",
+    "location": {
+      "lat": -39.38975,
+      "lng": 175.75925,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.38975,175.75925,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-Lake-Named-2",
+    "location": {
+      "lat": -39.3870038,
+      "lng": 175.746006,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.3870038,175.746006,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-Polys-Outline-1",
+    "location": {
+      "lat": -37.94561,
+      "lng": 176.96434,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.94561,176.96434,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-Polys-Outline-2",
+    "location": {
+      "lat": -38.03337528,
+      "lng": 176.42143912,
+      "z": 10
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.03337528,176.42143912,z10",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-Polys-Outline-3",
+    "location": {
+      "lat": -38.03444,
+      "lng": 176.43023,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.03444,176.43023,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-Polys-Outline-4",
+    "location": {
+      "lat": -37.9477035,
+      "lng": 176.9794537,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-37.9477035,176.9794537,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-Reef-1",
+    "location": {
+      "lat": -19.28378,
+      "lng": -158.93702,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-19.28378,-158.93702,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-River-Ln-1",
+    "location": {
+      "lat": -39.145,
+      "lng": 173.96239,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.145,173.96239,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-River-Ln-Named-1",
+    "location": {
+      "lat": -45.0284848,
+      "lng": 170.1472153,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-45.0284848,170.1472153,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-River-Poly-1",
+    "location": {
+      "lat": -41.8705846,
+      "lng": 172.1670862,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.8705846,172.1670862,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-River-Poly-2",
+    "location": {
+      "lat": -41.8660456,
+      "lng": 172.16382,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.8660456,172.16382,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-River-Poly-Named-1",
+    "location": {
+      "lat": -41.7910567,
+      "lng": 172.3188045,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.7910567,172.3188045,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-River-Poly-Named-2",
+    "location": {
+      "lat": -41.78916,
+      "lng": 172.31313,
+      "z": 13
+    },
+    "link": "https://basemaps.linz.govt.nz/@-41.78916,172.31313,z13",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-Spring-Cold-1",
+    "location": {
+      "lat": -43.3574466,
+      "lng": 171.2904172,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-43.3574466,171.2904172,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Water-Spring-Hot-1",
+    "location": {
+      "lat": -38.0499886,
+      "lng": 176.3671938,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.0499886,176.3671938,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Waterfall-Edge-1",
+    "location": {
+      "lat": -38.6203631,
+      "lng": 177.2950599,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.6203631,177.2950599,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Waterfall-Ln-1",
+    "location": {
+      "lat": -44.7960433,
+      "lng": 167.7395465,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-44.7960433,167.7395465,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Waterfall-Ln-lines-1",
+    "location": {
+      "lat": -44.8008653,
+      "lng": 167.7289888,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-44.8008653,167.7289888,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Waterfall-Ln-lines-2",
+    "location": {
+      "lat": -44.8008653,
+      "lng": 167.7289888,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-44.8008653,167.7289888,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Waterfall-Pt-1",
+    "location": {
+      "lat": -44.8206521,
+      "lng": 167.9549455,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-44.8206521,167.9549455,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Waterway-Flume-1",
+    "location": {
+      "lat": -42.7700604,
+      "lng": 171.0705636,
+      "z": 17
+    },
+    "link": "https://basemaps.linz.govt.nz/@-42.7700604,171.0705636,z17",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Waterway-Flume-Name-1",
+    "location": {
+      "lat": -39.0876754,
+      "lng": 175.7872444,
+      "z": 18
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.0876754,175.7872444,z18",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Waterway-Rapid-1",
+    "location": {
+      "lat": -44.0271002,
+      "lng": 169.339542,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-44.0271002,169.339542,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Waterway-Rapid-Names-1",
+    "location": {
+      "lat": -38.704065,
+      "lng": 177.066368,
+      "z": 17
+    },
+    "link": "https://basemaps.linz.govt.nz/@-38.704065,177.066368,z17",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Waterway-Rapid-Poly-1",
+    "location": {
+      "lat": -39.42541631,
+      "lng": 175.03826946,
+      "z": 11
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.42541631,175.03826946,z11",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Waterway-Rapid-Poly-2",
+    "location": {
+      "lat": -44.6950304,
+      "lng": 167.882628,
+      "z": 15
+    },
+    "link": "https://basemaps.linz.govt.nz/@-44.6950304,167.882628,z15",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Waterway-Spillway-Edge-1",
+    "location": {
+      "lat": -39.1195545,
+      "lng": 174.1304094,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-39.1195545,174.1304094,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Waterway-Waterfall-Label-1",
+    "location": {
+      "lat": -44.8000328,
+      "lng": 167.7313643,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-44.8000328,167.7313643,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Waterway-Waterfall-Poly-1",
+    "location": {
+      "lat": -44.9765533,
+      "lng": 167.4439275,
+      "z": 16
+    },
+    "link": "https://basemaps.linz.govt.nz/@-44.9765533,167.4439275,z16",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Waterway-Waterfall-Pt-1",
+    "location": {
+      "lat": -44.8276602,
+      "lng": 167.9669398,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-44.8276602,167.9669398,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Waterway-Waterfall-Pt-Ln-1",
+    "location": {
+      "lat": -44.827135,
+      "lng": 167.9717855,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-44.827135,167.9717855,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  },
+  {
+    "name": "Waterway-WaterRace-1",
+    "location": {
+      "lat": -44.9775605,
+      "lng": 171.080733,
+      "z": 14
+    },
+    "link": "https://basemaps.linz.govt.nz/@-44.9775605,171.080733,z14",
+    "tileMatrix": "WebMercatorQuad",
+    "tileSet": "topographic",
+    "style": "topographic"
+  }
+]
