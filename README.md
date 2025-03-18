@@ -64,7 +64,7 @@ In the following examples, note the hardcoded parameters included in the `diffUr
   ```bash
   node bms.mjs \
   --url "https://basemaps.linz.govt.nz" \
-  --diffUrl "https://basemaps.linz.govt.nz/?s=topographic-v2&i=topographic&config=s3://linz-basemaps-staging/config/config-3yPz7p2RBWJBBrx25mZcF55RH8xqxUyFc71D8v4baEYk.json.gz" \
+  --diff-url "https://basemaps.linz.govt.nz/?s=topographic-v2&i=topographic&config=s3://linz-basemaps-staging/config/config-3yPz7p2RBWJBBrx25mZcF55RH8xqxUyFc71D8v4baEYk.json.gz" \
   --output ./output-dir
   ```
 
@@ -73,7 +73,7 @@ In the following examples, note the hardcoded parameters included in the `diffUr
   ```bash
   node bms.mjs \
   --url "https://basemaps.linz.govt.nz" \
-  --diffUrl "https://basemaps.linz.govt.nz/?s=topographic-v2&i=topographic&config=s3://linz-basemaps-staging/config/config-3yPz7p2RBWJBBrx25mZcF55RH8xqxUyFc71D8v4baEYk.json.gz" \
+  --diff-url "https://basemaps.linz.govt.nz/?s=topographic-v2&i=topographic&config=s3://linz-basemaps-staging/config/config-3yPz7p2RBWJBBrx25mZcF55RH8xqxUyFc71D8v4baEYk.json.gz" \
   --output ./output-dir \
   --tests ./custom-tests.json
   ```
