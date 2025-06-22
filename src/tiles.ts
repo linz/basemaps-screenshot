@@ -189,15 +189,15 @@ export const DefaultTestTiles: TestTile[] = [
    * topographic-v2
    */
   {
-    name: 'topographic-v2-2193-z5',
-    tileMatrix: TileMatrixIdentifier.Nztm2000Quad,
+    name: 'topographic-v2-3857-z5',
+    tileMatrix: TileMatrixIdentifier.Google,
     location: { lat: -41.8899962, lng: 174.0492437, z: 5 },
     tileSet: 'topographic-v2',
     style: 'topographic-v2',
   },
   {
-    name: 'topographic-v2-3857-z5',
-    tileMatrix: TileMatrixIdentifier.Google,
+    name: 'topographic-v2-2193-z5',
+    tileMatrix: TileMatrixIdentifier.Nztm2000Quad,
     location: { lat: -41.8899962, lng: 174.0492437, z: 3 },
     tileSet: 'topographic-v2',
     style: 'topographic-v2',
