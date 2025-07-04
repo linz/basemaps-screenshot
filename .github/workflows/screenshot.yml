@@ -21,7 +21,7 @@ jobs:
           ./bms.mjs --url https://basemaps.linz.govt.nz --output .artifacts/visual-snapshots
 
       - name: Save snapshots
-        uses: blacha/action-visual-snapshot@v2-next
+        uses: linz/action-visual-snapshot@v2.1
         with:
           save-only: true
           snapshot-path: .artifacts/visual-snapshots
@@ -46,7 +46,7 @@ jobs:
 
       - name: Diff snapshots
         id: visual-snapshots-diff
-        uses: blacha/action-visual-snapshot@v2-next
+        uses: linz/action-visual-snapshot@v2.1
         with:
           storage-prefix: 's3://linz-basemaps-screenshot'
           storage-url: 'https://d25mfjh9syaxsr.cloudfront.net'
