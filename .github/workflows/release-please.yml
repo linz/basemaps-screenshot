@@ -7,6 +7,8 @@ name: release-please
 jobs:
   release-please:
     runs-on: ubuntu-latest
+    environment:
+      name: prod
     outputs:
       release_created: ${{ steps.release.outputs.release_created }}
     steps:
@@ -19,6 +21,8 @@ jobs:
   publish-release:
     needs: release-please
     runs-on: ubuntu-latest
+    environment:
+      name: prod
     if: ${{ needs.release-please.outputs.release_created }}
     steps:
       - uses: linz/action-typescript@v2
