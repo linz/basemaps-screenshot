@@ -22,6 +22,9 @@ export interface TestTile {
 }
 
 export const DefaultTestTiles: TestTile[] = [
+  /**
+   * health: mainland
+   */
   {
     name: 'health-3857-z5',
     tileMatrix: TileMatrixIdentifier.Google,
@@ -34,6 +37,9 @@ export const DefaultTestTiles: TestTile[] = [
     location: { lat: -41.8899962, lng: 174.0492437, z: 3 },
     tileSet: 'health',
   },
+  /**
+   * aerial: specific locations
+   */
   {
     name: 'aerial-3857-wellington-urban-z16',
     tileMatrix: TileMatrixIdentifier.Google,
@@ -46,6 +52,9 @@ export const DefaultTestTiles: TestTile[] = [
     location: { lat: -43.4040409, lng: 172.5393086, z: 12 },
     tileSet: 'aerial',
   },
+  /**
+   * topographic-v2: north island
+   */
   {
     name: 'topographic-v2-3857-z8',
     tileMatrix: TileMatrixIdentifier.Google,
@@ -53,6 +62,9 @@ export const DefaultTestTiles: TestTile[] = [
     tileSet: 'topographic-v2',
     style: 'topographic-v2',
   },
+  /**
+   * topolite-v2: north island
+   */
   {
     name: 'topolite-v2-3857-z8',
     tileMatrix: TileMatrixIdentifier.Google,
@@ -60,6 +72,9 @@ export const DefaultTestTiles: TestTile[] = [
     tileSet: 'topographic-v2',
     style: 'topolite-v2',
   },
+  /**
+   * topographic-v2: specific locations
+   */
   {
     name: 'topographic-v2-3857-z14',
     tileMatrix: TileMatrixIdentifier.Google,
@@ -102,6 +117,9 @@ export const DefaultTestTiles: TestTile[] = [
     tileSet: 'topographic-v2',
     style: 'topographic-v2',
   },
+  /**
+   * topolite-v2: specific locations
+   */
   {
     name: 'topolite-v2-3857-ngauranga-z15',
     tileMatrix: TileMatrixIdentifier.Google,
@@ -116,6 +134,9 @@ export const DefaultTestTiles: TestTile[] = [
     tileSet: 'topographic-v2',
     style: 'topolite-v2',
   },
+  /**
+   * aerial: terrain + hillshade, hillshade, terrain
+   */
   {
     name: 'aerial-3857-terrain-hillshade-z6',
     tileMatrix: TileMatrixIdentifier.Google,
@@ -141,6 +162,9 @@ export const DefaultTestTiles: TestTile[] = [
     style: 'aerial',
     terrain: 'LINZ-Terrain',
   },
+  /**
+   * topographic-v2: terrain + hillshade, hillshade
+   */
   {
     name: 'topographic-v2-3857-terrain-hillshade-z12',
     tileMatrix: TileMatrixIdentifier.Google,
@@ -150,6 +174,9 @@ export const DefaultTestTiles: TestTile[] = [
     terrain: 'LINZ-Terrain',
     hillshade: 'LINZ-Terrain',
   },
+  /**
+   * topolite-v2: hillshade
+   */
   {
     name: 'topolite-v2-3857-hillshade-z4',
     tileMatrix: TileMatrixIdentifier.Google,
@@ -158,6 +185,9 @@ export const DefaultTestTiles: TestTile[] = [
     style: 'topolite-v2',
     hillshade: 'LINZ-Terrain',
   },
+  /**
+   * topo-raster: specific locations
+   */
   {
     // verify the absence of black edge artifacts around the imagery's perimeter
     name: 'nz-topo-gridless-maps-2193-nz-250k-z4',
@@ -184,6 +214,10 @@ export const DefaultTestTiles: TestTile[] = [
   },
 
   // TODO: We will keep support for these tilesets for 90 days, please remove the tests after deprecating
+
+  /**
+   * topographic: north island
+   */
   {
     name: 'topographic-3857-z8',
     tileMatrix: TileMatrixIdentifier.Google,
@@ -191,6 +225,9 @@ export const DefaultTestTiles: TestTile[] = [
     tileSet: 'topographic',
     style: 'topographic',
   },
+  /**
+   * topolite: north island
+   */
   {
     name: 'topolite-3857-z8',
     tileMatrix: TileMatrixIdentifier.Google,
@@ -198,6 +235,9 @@ export const DefaultTestTiles: TestTile[] = [
     tileSet: 'topographic',
     style: 'topolite',
   },
+  /**
+   * topographic: specific locations
+   */
   {
     name: 'topographic-3857-mount-cook-village-z12',
     tileMatrix: TileMatrixIdentifier.Google,
