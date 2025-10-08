@@ -26,13 +26,13 @@ export const DefaultTestTiles: TestTile[] = [
    * health: mainland
    */
   {
-    name: 'health-3857-z5',
+    name: 'health-3857-mainland-z5',
     tileMatrix: TileMatrixIdentifier.Google,
     location: { lat: -41.8899962, lng: 174.0492437, z: 5 },
     tileSet: 'health',
   },
   {
-    name: 'health-2193-z3',
+    name: 'health-2193-mainland-z3',
     tileMatrix: TileMatrixIdentifier.Nztm2000Quad,
     location: { lat: -41.8899962, lng: 174.0492437, z: 3 },
     tileSet: 'health',
@@ -56,7 +56,7 @@ export const DefaultTestTiles: TestTile[] = [
    * topographic-v2: north island
    */
   {
-    name: 'topographic-v2-3857-z8',
+    name: 'topographic-v2-3857-north-island-z8',
     tileMatrix: TileMatrixIdentifier.Google,
     location: { lat: -39.2169833, lng: 176.4774344, z: 8 },
     tileSet: 'topographic-v2',
@@ -66,7 +66,7 @@ export const DefaultTestTiles: TestTile[] = [
    * topolite-v2: north island
    */
   {
-    name: 'topolite-v2-3857-z8',
+    name: 'topolite-v2-3857-north-island-z8',
     tileMatrix: TileMatrixIdentifier.Google,
     location: { lat: -39.2169833, lng: 176.4774344, z: 8 },
     tileSet: 'topographic-v2',
@@ -76,7 +76,7 @@ export const DefaultTestTiles: TestTile[] = [
    * topographic-v2: specific locations
    */
   {
-    name: 'topographic-v2-3857-z14',
+    name: 'topographic-v2-3857-mainland-z14',
     tileMatrix: TileMatrixIdentifier.Google,
     location: { lat: -41.8899962, lng: 174.0492437, z: 14 },
     tileSet: 'topographic-v2',
@@ -128,7 +128,7 @@ export const DefaultTestTiles: TestTile[] = [
     style: 'topolite-v2',
   },
   {
-    name: 'topolite-v2-3857-z17',
+    name: 'topolite-v2-3857-akaroa-z17',
     tileMatrix: TileMatrixIdentifier.Google,
     location: { lat: -43.8063936, lng: 172.9679876, z: 17 },
     tileSet: 'topographic-v2',
@@ -138,7 +138,7 @@ export const DefaultTestTiles: TestTile[] = [
    * aerial: terrain + hillshade, hillshade, terrain
    */
   {
-    name: 'aerial-3857-terrain-hillshade-z6',
+    name: 'aerial-3857-south-island-terrain-hillshade-z6',
     tileMatrix: TileMatrixIdentifier.Google,
     location: { lat: -45.0735206, lng: 169.1674805, z: 6 },
     tileSet: 'aerial',
@@ -147,7 +147,7 @@ export const DefaultTestTiles: TestTile[] = [
     hillshade: 'LINZ-Terrain',
   },
   {
-    name: 'aerial-3857-terrain-hillshade-z5',
+    name: 'aerial-3857-mainland-hillshade-z5',
     tileMatrix: TileMatrixIdentifier.Google,
     location: { lat: -40.7681948, lng: 172.4544741, z: 5 },
     tileSet: 'aerial',
@@ -155,7 +155,7 @@ export const DefaultTestTiles: TestTile[] = [
     hillshade: 'LINZ-Terrain',
   },
   {
-    name: 'aerial-3857-mount-taranaki-terrain-hillshade-z14',
+    name: 'aerial-3857-mount-taranaki-terrain-z14',
     tileMatrix: TileMatrixIdentifier.Google,
     location: { lat: -39.3031717, lng: 174.0585208, z: 14, p: 43 },
     tileSet: 'aerial',
@@ -166,7 +166,7 @@ export const DefaultTestTiles: TestTile[] = [
    * topographic-v2: terrain + hillshade, hillshade
    */
   {
-    name: 'topographic-v2-3857-terrain-hillshade-z12',
+    name: 'topographic-v2-3857-mainland-terrain-hillshade-z5',
     tileMatrix: TileMatrixIdentifier.Google,
     location: { lat: -42.4146988, lng: 174.1766669, z: 5 },
     tileSet: 'topographic-v2',
@@ -178,7 +178,7 @@ export const DefaultTestTiles: TestTile[] = [
    * topolite-v2: hillshade
    */
   {
-    name: 'topolite-v2-3857-hillshade-z4',
+    name: 'topolite-v2-3857-mainland-hillshade-z4',
     tileMatrix: TileMatrixIdentifier.Google,
     location: { lat: -41.6092133, lng: 173.0748696, z: 4 },
     tileSet: 'topographic-v2',
@@ -190,7 +190,7 @@ export const DefaultTestTiles: TestTile[] = [
    */
   {
     // verify the absence of black edge artifacts around the imagery's perimeter
-    name: 'nz-topo-gridless-maps-2193-nz-250k-z4',
+    name: 'topo-gridless-maps-2193-mainland-250k-z4',
     tileMatrix: TileMatrixIdentifier.Nztm2000Quad,
     location: { lat: -40.7899231, lng: 172.2977984, z: 4 },
     tileSet: 'topo-raster',
@@ -198,7 +198,7 @@ export const DefaultTestTiles: TestTile[] = [
   },
   {
     // verify the location and re-projection of the chatham islands imagery
-    name: 'nz-topo-gridless-maps-3857-chatham-islands-250k-z10',
+    name: 'topo-gridless-maps-3857-chatham-islands-250k-z10',
     tileMatrix: TileMatrixIdentifier.Google,
     location: { lat: -43.9090948, lng: -176.540438, z: 10 },
     tileSet: 'topo-raster',
@@ -206,7 +206,7 @@ export const DefaultTestTiles: TestTile[] = [
   },
   {
     // verify the tileset displays the 50k imagery
-    name: 'nz-topo-gridless-maps-3857-wellington-50k-z12',
+    name: 'topo-gridless-maps-3857-wellington-urban-50k-z12',
     tileMatrix: TileMatrixIdentifier.Google,
     location: { lat: -41.299807, lng: 174.8041651, z: 12 },
     tileSet: 'topo-raster',
@@ -219,7 +219,7 @@ export const DefaultTestTiles: TestTile[] = [
    * topographic: north island
    */
   {
-    name: 'topographic-3857-z8',
+    name: 'topographic-3857-north-island-z8',
     tileMatrix: TileMatrixIdentifier.Google,
     location: { lat: -39.2169833, lng: 176.4774344, z: 8 },
     tileSet: 'topographic',
@@ -229,7 +229,7 @@ export const DefaultTestTiles: TestTile[] = [
    * topolite: north island
    */
   {
-    name: 'topolite-3857-z8',
+    name: 'topolite-3857-north-island-z8',
     tileMatrix: TileMatrixIdentifier.Google,
     location: { lat: -39.2169833, lng: 176.4774344, z: 8 },
     tileSet: 'topographic',
