@@ -15,7 +15,7 @@ jobs:
       contents: read
     steps:
       - uses: linz/action-typescript@v3
-      - with:
+        with:
           package-manager: yarn
 
       - name: (Screenshot) Screenshot Pull Request Changes
