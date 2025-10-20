@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.10.0](https://github.com/linz/basemaps-screenshot/compare/v1.9.0...v1.10.0) (2025-10-20)
+
+
+### Features
+
+* add screenshot tests for the topo-raster tileset BM-1167 ([#424](https://github.com/linz/basemaps-screenshot/issues/424)) ([5acff1e](https://github.com/linz/basemaps-screenshot/commit/5acff1edea2945d3a4f2b88cec9e2e89b6c1a6ed))
+* Add screenshot tests for topographic-v2 maps. BM-1356 ([#432](https://github.com/linz/basemaps-screenshot/issues/432)) ([f34db3b](https://github.com/linz/basemaps-screenshot/commit/f34db3b5b71c9556542054214018e65758d91d49))
+* add the topographic tests used to validate the Shortbread vector maps BM-1198 ([#428](https://github.com/linz/basemaps-screenshot/issues/428)) ([cfe2b88](https://github.com/linz/basemaps-screenshot/commit/cfe2b88110629a855ca97846465b23e3cbca9923))
+* Update screenshot to compare diffs between two URLs. BM-1202 ([#426](https://github.com/linz/basemaps-screenshot/issues/426)) ([c78eb70](https://github.com/linz/basemaps-screenshot/commit/c78eb70afd35de685d1c38ac05044c3cfbf82a9d))
+
 ## [1.9.0](https://github.com/linz/basemaps-screenshot/compare/v1.8.1...v1.9.0) (2024-10-09)
 
 
