@@ -23,6 +23,9 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: prod
+    permissions:
+      contents: read
+      packages: write
     if: ${{ needs.release-please.outputs.release_created }}
     steps:
       - uses: linz/action-typescript@v2
@@ -50,8 +53,12 @@ jobs:
           echo "version_major=${GIT_VERSION_MAJOR}" >> $GITHUB_OUTPUT
           echo "version_major_minor=${GIT_VERSION_MAJOR_MINOR}" >> $GITHUB_OUTPUT
 
-      - name: Log in to registry
-        run: echo "${{ secrets.LI_GITHUB_ACTION_TOKEN }}" | docker login ghcr.io -u $ --password-stdin
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: "basemaps-screenshot/cli - Build and push"
         uses: docker/build-push-action@v4
