@@ -28,7 +28,7 @@ jobs:
       packages: write
     if: ${{ needs.release-please.outputs.release_created }}
     steps:
-      - uses: linz/action-typescript@v2
+      - uses: linz/action-typescript@v3
 
       - name: Pull Tags
         run: |
