@@ -6,6 +6,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: read
+      packages: write
+
     steps:
       - uses: linz/action-typescript@v2
 
@@ -27,8 +31,12 @@ jobs:
           GIT_VERSION=$(git describe --tags --always --match 'v*')
           echo "version=${GIT_VERSION}" >> $GITHUB_OUTPUT
 
-      - name: Log in to registry
-        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u $ --password-stdin
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: "basemaps-screenshot/cli - Build and push"
         uses: docker/build-push-action@v4
